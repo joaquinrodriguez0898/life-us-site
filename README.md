@@ -6,8 +6,8 @@ Sitio estático de una sola página (HTML/CSS/JS, sin build) para lifeus.cl.
 
 El formulario usa [Web3Forms](https://web3forms.com) — servicio gratuito que reenvía los envíos por email sin necesidad de backend propio.
 
-1. Andá a https://web3forms.com y creá una access key gratuita con el email **n.brunettoa@gmail.com** (o el que prefieras como principal).
-2. Una vez generada la key, en el dashboard de Web3Forms agregá **joaquinrodriguez0898@gmail.com** como destinatario adicional (sección "Additional Emails" / "Manage Access Key"), para que las consultas lleguen a ambos correos.
+1. Andá a https://web3forms.com y creá una access key gratuita con el email **nicolas@lifeus.cl** (o el que prefieras como principal).
+2. El plan gratuito de Web3Forms solo permite **un** destinatario por access key (CC/BCC es función Pro). Si necesitás que las consultas lleguen también a **joaquin@lifeus.cl**, configurá un reenvío automático desde la casilla principal hacia esa dirección (regla de forwarding en el hosting de correo del dominio).
 3. Copiá la access key y reemplazá el placeholder en [index.html](index.html), en el `<form id="contactForm">`:
    ```html
    <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY_AQUI">
