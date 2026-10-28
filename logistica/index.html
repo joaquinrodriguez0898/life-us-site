@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logística y operación en terreno | LIFE-US</title>
+<meta name="description" content="Conectamos la operación en terreno (flotas, andenes, plantas y activos) con tu ERP, sin cambiar tus sistemas. Torre de Control IoT, digitalización en terreno e IA conversacional.">
+<meta property="og:title" content="Logística y operación en terreno | LIFE-US">
+<meta property="og:description" content="Conectamos la operación en terreno (flotas, andenes, plantas y activos) con tu ERP, sin cambiar tus sistemas. Torre de Control IoT, digitalización en terreno e IA conversacional.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CL">
+<meta property="og:url" content="https://www.lifeus.cl/logistica/">
+<meta property="og:image" content="https://www.lifeus.cl/og-logistica.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="LIFE-US: visibilidad en tiempo real de tu operación">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Logística y operación en terreno | LIFE-US">
+<meta name="twitter:description" content="Conectamos la operación en terreno (flotas, andenes, plantas y activos) con tu ERP, sin cambiar tus sistemas. Torre de Control IoT, digitalización en terreno e IA conversacional.">
+<meta name="twitter:image" content="https://www.lifeus.cl/og-logistica.png">
+<link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css?v=3">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="i-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7.2"/><circle cx="12" cy="12" r="1.6" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16a8 8 0 1 1 16 0"/><path d="M12 16l3.4-4.4"/><circle cx="12" cy="16" r="1.3" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-crosshair" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></symbol>
+<symbol id="i-cloud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 15.3a3.5 3.5 0 0 1-.4-6.97A4.5 4.5 0 0 1 15.4 6.9 4 4 0 0 1 15 15.3H7z"/><circle cx="7" cy="19.3" r="1" fill="currentColor" stroke="none"/><circle cx="12" cy="20.3" r="1" fill="currentColor" stroke="none"/><circle cx="16" cy="18.8" r="1" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-server" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="6" rx="1.6"/><rect x="4" y="13" width="16" height="6" rx="1.6"/><circle cx="7.6" cy="8" r=".9" fill="currentColor" stroke="none"/><circle cx="7.6" cy="16" r=".9" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-wifi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9a10 10 0 0 1 14 0"/><path d="M8 12.6a6 6 0 0 1 8 0"/><circle cx="12" cy="17" r="1.4" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-monitor" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="11" rx="1.6"/><path d="M9 20h6M12 16v4"/></symbol>
+<symbol id="i-signal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12.5" r="1.6" fill="currentColor" stroke="none"/><path d="M9 9.5a4.2 4.2 0 0 1 6 0"/><path d="M6.3 6.8a8 8 0 0 1 11.4 0"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="7.6"/><path d="M12 9v4l3 2M8 3.6l1.6 1.6M16 3.6l-1.6 1.6"/></symbol>
+<symbol id="i-network" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="8" r="2" fill="currentColor" stroke="none"/><circle cx="18" cy="8" r="2" fill="currentColor" stroke="none"/><circle cx="12" cy="18" r="2" fill="currentColor" stroke="none"/><path d="M7.6 9h8.8M7 9.6l3.8 6.6M17 9.6l-3.8 6.6"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.8-6.3 10-6.3S22 12 22 12s-3.8 6.3-10 6.3S2 12 2 12z"/><circle cx="12" cy="12" r="2.6" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-trend" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-9"/><path d="M15 6h6v6"/></symbol>
+<symbol id="i-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 10a6 6 0 1 1 12 0c0 4 1.5 5.5 2 6H4c.5-.5 2-2 2-6z"/><path d="M10 19a2 2 0 0 0 4 0"/></symbol>
+<symbol id="i-clipboard" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="4.5" width="13" height="16" rx="1.8"/><rect x="9" y="3" width="6" height="3" rx="1"/><path d="M8.5 10.5h7M8.5 14h7M8.5 17.5H13"/></symbol>
+<symbol id="i-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4l9 5-9 5-9-5z"/><path d="M3 14l9 5 9-5"/></symbol>
+<symbol id="i-people" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9.5" r="2.4"/><path d="M3.5 20c0-3.3 2.5-6 5.5-6s5.5 2.7 5.5 6"/><path d="M14.7 20c0-2.4 1.2-4.5 2.9-5.4"/></symbol>
+<symbol id="i-bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 19v-7M12 19V6M18 19v-4"/></symbol>
+<symbol id="i-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 4.6L3 17.2V21h3.8l6.3-6.3a4 4 0 0 0 4.6-5.4l-2.8 2.8-2-2z"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.4l2.6 2.6 5.4-5.6"/></symbol>
+<symbol id="i-tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="1.5"/><path d="M4 6.5l8 6.5 8-6.5"/></symbol>
+<symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3.5h7l4.5 4.5v11A1.5 1.5 0 0 1 17 20.5H7A1.5 1.5 0 0 1 5.5 19V5A1.5 1.5 0 0 1 7 3.5z"/><path d="M14 3.5V8h4.5M8.5 12.5h7M8.5 16h5"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5.5h14a1.5 1.5 0 0 1 1.5 1.5v8a1.5 1.5 0 0 1-1.5 1.5h-7l-4.5 3.5v-3.5H5A1.5 1.5 0 0 1 3.5 15V7A1.5 1.5 0 0 1 5 5.5z"/><circle cx="8.5" cy="11" r=".95" fill="currentColor" stroke="none"/><circle cx="12" cy="11" r=".95" fill="currentColor" stroke="none"/><circle cx="15.5" cy="11" r=".95" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-ai" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5.5h14a1.5 1.5 0 0 1 1.5 1.5v8a1.5 1.5 0 0 1-1.5 1.5h-7l-4.5 3.5v-3.5H5A1.5 1.5 0 0 1 3.5 15V7A1.5 1.5 0 0 1 5 5.5z"/><path d="M12 7.9l.95 2.35 2.35.95-2.35.95L12 14.5l-.95-2.35-2.35-.95 2.35-.95z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-tower" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.2" r="1.6" fill="currentColor" stroke="none"/><path d="M9 5.4a4.3 4.3 0 0 0 0 5.6M15 5.4a4.3 4.3 0 0 1 0 5.6M12 10l-3.6 11M12 10l3.6 11M9.7 16.6h4.6"/></symbol>
+<symbol id="i-mobile" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2.8" width="10" height="18.4" rx="2.2"/><path d="M10.8 18.4h2.4M9.6 10.6l1.8 1.8 3.2-3.4"/></symbol>
+<symbol id="i-fish" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c2.6-4 6.2-5.8 9.6-5.8 3 0 5.2 1.6 6.9 3.8L22 7.8v8.4l-2.5-2.2c-1.7 2.2-3.9 3.8-6.9 3.8C9.2 17.8 5.6 16 3 12z"/><circle cx="8.4" cy="11" r=".95" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19C5 10.5 9.8 5.4 19.5 4.5 19 14 13.6 19.2 5 19z"/><path d="M5 19l8.5-8.5"/></symbol>
+<symbol id="i-basket" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 9.5h17l-1.8 9.2a1.5 1.5 0 0 1-1.5 1.3H6.8a1.5 1.5 0 0 1-1.5-1.3z"/><path d="M8 9.5L11 4M16 9.5L13 4M9.5 13v3.8M14.5 13v3.8"/></symbol>
+<symbol id="i-warehouse" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20.5V9.2L12 4l9 5.2v11.3"/><rect x="7.5" y="12" width="9" height="8.5"/><path d="M7.5 15.2h9M7.5 17.9h9"/></symbol>
+<symbol id="i-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13.4 3L6 13.4h5L10.2 21 18 10.4h-5.2z"/></symbol>
+<symbol id="i-wa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5a8.5 8.5 0 0 0-7.3 12.9L3.5 20.5l4.2-1.1A8.5 8.5 0 1 0 12 3.5z"/><path d="M9.4 8.4c-.4.3-.6.8-.4 1.4.7 1.9 2.3 3.5 4.3 4.3.6.2 1.1 0 1.4-.4l.4-.6-1.7-.9-.5.5a4 4 0 0 1-2.2-2.2l.5-.5-.9-1.7z"/></symbol>
+<symbol id="i-in" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="2.5"/><path d="M8 10.6v5.8M11.8 16.4v-5.8M11.8 13.2c0-1.7 1-2.7 2.4-2.7s2.2.9 2.2 2.6v3.3"/><circle cx="8" cy="7.9" r=".9" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-arrow-ur" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></symbol>
+<symbol id="i-api" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 5l-4 14"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-wa-solid" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></symbol>
+</defs>
+</svg>
+
+<div class="sw"><div class="wrap sw-in"><div class="sw-l"><a href="/">LIFE-US</a><a href="/logistica/" class="on">Logística y operación</a><a href="/ingenieria/">Ingeniería industrial</a></div><span class="sw-t">Continuidad operacional de activos críticos</span></div></div>
+<header class="hd"><div class="wrap hd-in">
+  <a class="logo" href="/" aria-label="LIFE-US, inicio"></a>
+  <nav class="nav" id="nav"><a href="#diagnostico">Diagnóstico</a><a href="#rol">Nuestro rol</a><a href="#soluciones">Soluciones</a><a href="#industrias">Industrias</a><a href="#plataforma">Plataforma</a><a href="#implementacion">Implementación</a><!-- CASOS (oculto): para activarlo, quitar "hidden" de este enlace, del del panel móvil, del del footer y de <section id="casos"> --><a href="#casos" hidden>Casos</a><a href="#contacto">Contacto</a></nav>
+  <a class="cta" href="#contacto">Agendar reunión técnica <span class="arr"><svg class="ic"><use href="#i-arrow"/></svg></span></a>
+  <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><i></i><i></i><i></i></button>
+</div>
+<div class="mp" id="mp"><a href="#diagnostico">Diagnóstico</a><a href="#rol">Nuestro rol</a><a href="#soluciones">Soluciones</a><a href="#industrias">Industrias</a><a href="#plataforma">Plataforma</a><a href="#implementacion">Implementación</a><a href="#casos" hidden>Casos</a><a href="#contacto">Contacto</a></div></header>
+
+<section class="hero" id="top"><div class="wrap">
+  <div class="hero-meta mono"><span>● Soluciones tecnológicas para la industria</span><span>Activos críticos · Flotas · Plantas · Andenes · Equipos en terreno</span></div>
+  <h1>Asegura la continuidad operacional <br>con <mark>visibilidad en tiempo real.</mark></h1>
+  <div class="hero-g">
+    <div>
+      <p class="lead">Integramos tus flotas, plantas, andenes y equipos en terreno con tu ERP, sin cambiar tus sistemas. Y si te falta algo, también lo resolvemos: GPS con servicio de seguimiento y asesoría e implementación de ERP. Visibilidad en tiempo real, procesos digitales y atención automatizada con IA.</p>
+      <div class="ctas"><a class="btn pri" href="#contacto">Solicitar un Piloto <svg class="ic"><use href="#i-arrow"/></svg></a><a class="btn ghost" href="#diagnostico">Ver el diagnóstico</a></div>
+      <ul class="trust"><li><span class="mono">01</span>Agnósticos al hardware</li><li><span class="mono">02</span>Integración vía API</li><li><span class="mono">03</span>Piloto controlado de 4 a 8 semanas</li></ul>
+    </div>
+    <div class="radar-w">
+      <div class="radar">
+        <svg viewBox="0 0 560 560" fill="none" aria-hidden="true">
+          <circle cx="280" cy="280" r="272" stroke="rgba(29,29,27,.22)"/><circle cx="280" cy="280" r="204" stroke="rgba(29,29,27,.14)"/><circle cx="280" cy="280" r="136" stroke="rgba(29,29,27,.14)"/><circle cx="280" cy="280" r="68" stroke="rgba(29,29,27,.14)"/>
+          <path d="M280 8V552M8 280H552" stroke="rgba(29,29,27,.1)"/><path d="M88 88L472 472M472 88L88 472" stroke="rgba(29,29,27,.05)"/>
+          <path class="dash-r" d="M96 400C150 318 214 350 268 282S386 214 466 150" stroke="#a9bf00" stroke-width="2.4" stroke-dasharray="7 9" stroke-linecap="round"/>
+          <path d="M118 176C176 206 232 248 304 318S424 430 482 410" stroke="rgba(29,29,27,.45)" stroke-width="1.4" stroke-dasharray="3 7" stroke-linecap="round"/>
+          <circle cx="268" cy="282" r="46" stroke="#c98f00" stroke-dasharray="5 6"/>
+          <circle cx="96" cy="400" r="4.5" fill="#1d1d1b"/><circle cx="466" cy="150" r="4.5" fill="#1d1d1b"/><circle cx="118" cy="176" r="3.5" fill="#1d1d1b" fill-opacity=".7"/><circle cx="482" cy="410" r="3.5" fill="#1d1d1b" fill-opacity=".7"/><circle cx="380" cy="226" r="3.5" fill="#1d1d1b" fill-opacity=".7"/><circle cx="196" cy="214" r="3" fill="#1d1d1b" fill-opacity=".5"/><circle cx="410" cy="342" r="3" fill="#1d1d1b" fill-opacity=".5"/>
+          <circle class="pulse" cx="268" cy="282" r="6" fill="#c98f00"/><circle class="pulse" cx="350" cy="236" r="5.5" fill="#a9bf00"/><circle class="pulse" cx="172" cy="352" r="5.5" fill="#a9bf00"/><circle class="pulse" cx="430" cy="300" r="4.5" fill="#a9bf00"/>
+          <text x="214" y="352" fill="#8a6200" font-family="JetBrains Mono,monospace" font-size="11" letter-spacing="1.5" font-weight="500">F-12</text>
+          <text x="404" y="130" fill="#4a4a44" font-family="JetBrains Mono,monospace" font-size="10" letter-spacing="1.5">PLANTA</text>
+          <text x="56" y="424" fill="#4a4a44" font-family="JetBrains Mono,monospace" font-size="10" letter-spacing="1.5">ANDÉN</text>
+        </svg>
+        <div class="sweep"></div>
+        <div class="fl a"><small>Disponibilidad</small><strong>97.4%</strong></div>
+        <div class="fl b"><small>Activos en línea</small><strong>128/131</strong></div>
+        <div class="fl c"><svg class="ic"><use href="#i-bell"/></svg><span>Vehículo F-12 · salida de geocerca autorizada</span></div>
+      </div>
+      <div class="fig"><span>Fig. 01 · Torre de control</span><span>Vista ilustrativa · cifras de ejemplo</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="sec" id="diagnostico"><div class="wrap">
+  <div class="sh"><div><span class="idx"><b>02</b><i></i>El diagnóstico</span><h2>Gestionar <mark>“A Ciegas”</mark></h2></div>
+    <p class="sh-p">La falta de visibilidad no es exclusiva de un tipo de activo ni de una industria. Se repite cada vez que el consumo, la ubicación o el estado de un proceso no se miden en tiempo real: la gestión pasa a depender de estimaciones, recorridos manuales y reportes que llegan tarde. El resultado es siempre el mismo, sin importar el origen del dato: costos ocultos, continuidad en riesgo y decisiones tomadas con información incompleta.</p></div>
+  <div>
+    <div class="pain"><span class="n">01</span><h3>Consumo sin Control</h3><p>Energía, agua, combustible o gases de proceso que se pagan cada mes sin saber, en tiempo real, dónde y por qué se generó el gasto. Sin medición continua, la eficiencia se gestiona por intuición y no por datos, y las oportunidades de ahorro quedan invisibles.</p></div>
+    <div class="pain"><span class="n">02</span><h3>Activos y Flotas sin Trazabilidad</h3><p>Equipos, vehículos o procesos que operan sin visibilidad real de su ubicación, uso o condición. Una falla, una desviación de ruta o un activo detenido se descubren cuando ya generaron un costo o un riesgo, y no antes, cuando todavía podían prevenirse.</p></div>
+    <div class="pain"><span class="n">03</span><h3>Datos Dispersos, Decisiones Lentas</h3><p>Cada área resuelve su necesidad de datos con proveedores puntuales que no conversan entre sí. La información termina fragmentada en plataformas, planillas y reportes manuales, y la gerencia decide con retraso en lugar de hacerlo en tiempo real.</p></div>
+    <div class="pain"><span class="n">04</span><h3>Procesos en Papel</h3><p>Checklists, recepciones, auditorías y actas que se llenan a mano y se consolidan días después, sin evidencia ni trazabilidad.</p></div>
+    <div class="pain"><span class="n">05</span><h3>Atención y Coordinación Manual</h3><p>Proveedores, clientes y equipos que llaman o escriben para consultar órdenes, agendar entregas o reportar fallas, saturando al equipo.</p></div>
+  </div>
+  <div class="callout"><svg class="ic bolt"><use href="#i-bolt"/></svg><p>Estos dolores no se resuelven con un proveedor puntual para cada necesidad: requieren una estrategia capaz de <em>medir, ubicar, digitalizar y automatizar</em>, conectando cualquier fuente de datos de la operación.</p></div>
+</div></section>
+
+<section class="sec alt" id="rol"><div class="wrap">
+  <div class="sh solo"><div><span class="idx"><b>03</b><i></i>Nuestro rol</span><h2>Integrador Tecnológico de tu Operación</h2></div></div>
+  <div class="role">
+    <div><p class="tx">Life-us actúa como partner estratégico y orquestador tecnológico de la digitalización de activos industriales. No estamos atados a una sola tecnología: seleccionamos, integramos y operamos la combinación de medición, conectividad, geolocalización y gestión de datos que cada activo realmente necesita.</p>
+      <div class="qbox"><h4>Agnósticos de tecnología y de marca</h4><p>La solución se diseña según la necesidad del activo, no al revés. Medición de consumo, IoT, data loggers, GPS o gestión de datos, según lo que el diagnóstico indique.</p></div></div>
+    <div class="steps">
+      <div class="step"><span class="dot">01</span><div><h4>Activo o proceso a monitorear</h4><p>Cualquier equipo, vehículo, línea o punto de consumo, sin importar marca, modelo o antigüedad.</p></div></div>
+      <div class="step"><span class="dot">02</span><div><h4>Selección de la tecnología adecuada</h4><p>Medición de consumo, sensórica IoT, data loggers o GPS, según el activo y el KPI que se busca controlar.</p></div></div>
+      <div class="step"><span class="dot">03</span><div><h4>Conectividad y transmisión de datos</h4><p>La información viaja de forma segura y encriptada, por red celular, Wi-Fi o Bluetooth según el sitio.</p></div></div>
+      <div class="step"><span class="dot">04</span><div><h4>Un solo panel de inteligencia</h4><p>Toda la información, sin importar su origen tecnológico, converge en un dashboard centralizado.</p></div></div>
+    </div>
+  </div>
+  <div class="bq"><span class="q">“</span><p>La tecnología se elige según el problema del cliente, <mark>no según lo que tengamos en el catálogo.</mark>”</p></div>
+</div></section>
+
+<section class="sec" id="soluciones"><div class="wrap">
+  <div class="sh"><div><span class="idx"><b>04</b><i></i>Soluciones</span><h2>Motores Tecnológicos de <mark>Life-us</mark></h2></div>
+    <p class="sh-p">Tres capacidades especializadas, integradas y operadas por Life-US bajo un solo modelo de servicio. Las combinamos según el diagnóstico de cada operación y las conectamos con tu ERP y tus sistemas actuales vía API.</p></div>
+  <div class="tabs">
+    <div class="tbl" role="tablist">
+      <button class="tb on" data-t="0" role="tab"><span class="o"><svg class="ic"><use href="#i-tower"/></svg></span><span><small>MOTOR 01</small><strong>Torre de Control IoT y telemetría</strong></span><svg class="ic ar"><use href="#i-arrow"/></svg></button>
+      <button class="tb" data-t="1" role="tab"><span class="o"><svg class="ic"><use href="#i-mobile"/></svg></span><span><small>MOTOR 02</small><strong>Digitalización de procesos en terreno</strong></span><svg class="ic ar"><use href="#i-arrow"/></svg></button>
+      <button class="tb" data-t="2" role="tab"><span class="o"><svg class="ic"><use href="#i-ai"/></svg></span><span><small>MOTOR 03</small><strong>IA conversacional</strong></span><svg class="ic ar"><use href="#i-arrow"/></svg></button>
+    </div>
+    <div class="pnw">
+      <div class="pn on"><div class="pn-h"><span class="mono">Motor 01 / 03</span><span class="mono">Integración vía API</span></div>
+        <ul class="bl"><li>Integración agnóstica vía API con múltiples proveedores de GPS y sensores existentes.</li><li>Monitoreo en tiempo real de flotas terrestres y marítimas.</li><li>Cadena de frío, horómetros, odómetros y consumo de combustible.</li><li>Trazabilidad de activos.</li><li>Unifica múltiples plataformas en una sola Torre de Control.</li><li>Integración con SCADA/Modbus cuando ya existe telemetría, o sensorización desde cero.</li></ul>
+        <div class="vis"><span class="mono">Torre de control · multimarca</span>
+          <svg class="map" viewBox="0 0 300 220" fill="none" aria-hidden="true"><path d="M0 40H300M0 90H300M0 140H300M0 190H300M50 0V220M110 0V220M170 0V220M230 0V220" stroke="rgba(29,29,27,.08)"/><path d="M20 170C70 130 100 150 140 110S220 70 280 40" stroke="#a9bf00" stroke-width="2.4" stroke-dasharray="6 7" stroke-linecap="round"/><circle cx="140" cy="110" r="30" stroke="#c98f00" stroke-dasharray="4 5"/><circle cx="140" cy="110" r="6" fill="#c98f00"/><circle cx="20" cy="170" r="4.5" fill="#1d1d1b"/><circle cx="280" cy="40" r="4.5" fill="#1d1d1b"/><circle cx="220" cy="150" r="3.5" fill="#1d1d1b" fill-opacity=".6"/><circle cx="70" cy="60" r="3.5" fill="#1d1d1b" fill-opacity=".6"/><rect x="40" y="186" width="130" height="22" fill="#fff" stroke="#1d1d1b"/><text x="48" y="201" fill="#1d1d1b" font-family="JetBrains Mono,monospace" font-size="9" font-weight="500">GPS · SENSORES · SCADA</text></svg></div></div>
+      <div class="pn"><div class="pn-h"><span class="mono">Motor 02 / 03</span><span class="mono">Funciona sin conexión</span></div>
+        <ul class="bl"><li>App móvil intuitiva que funciona sin conexión.</li><li>Reemplaza el papel y las planillas en checklists de mantenimiento, auditorías de calidad en andén, picking, recepción y despacho, y actas de conformidad.</li><li>Firma digital y fotos como evidencia.</li><li>Tareas en listas, Kanban o Gantt.</li><li>Datos en tiempo real enviados directo al ERP.</li></ul>
+        <div class="vis"><div class="phone"><span class="mono" style="font-size:9.5px">Checklist de recepción</span><div class="ck d" style="margin-top:8px"><i><svg class="ic"><use href="#i-tick"/></svg></i>Estado del embalaje</div><div class="ck d"><i><svg class="ic"><use href="#i-tick"/></svg></i>Temperatura de la carga</div><div class="ck"><i></i>Fotos de evidencia</div><div class="sig">FIRMA DIGITAL</div><div class="sync"><b></b>SINCRONIZADO CON EL ERP</div></div></div></div>
+      <div class="pn"><div class="pn-h"><span class="mono">Motor 03 / 03</span><span class="mono">WhatsApp o voz · 24/7</span></div>
+        <ul class="bl"><li>Asistentes virtuales con IA por WhatsApp o voz, 24/7.</li><li>Soporte a proveedores: consultas de órdenes de compra y agendamiento de ventanas de entrega.</li><li>Autogestión para clientes: reportes de fallas de maquinaria, agendamiento de visitas técnicas y solicitud de certificados.</li></ul>
+        <div class="vis"><div class="chat"><div class="bu u">Necesito agendar una ventana de entrega.</div><div class="bu b">Claro. Estas son las ventanas disponibles:<div class="opts" style="margin-top:8px"><span>09:00</span><span>11:30</span><span>15:00</span></div></div><div class="bu u">11:30, por favor.</div><div class="bu b">Listo. Tu ventana quedó agendada.</div></div></div></div>
+    </div>
+  </div>
+  <div class="subhd"><h3>Capacidades de medición y conectividad</h3><p>Módulos que se combinan con los motores tecnológicos según cada activo, proceso o flota.</p></div>
+  <div class="caps">
+    <div class="cap"><svg class="ic"><use href="#i-gauge"/></svg><h4>Medición de Consumo</h4><p>Monitoreo de consumo energético, de agua, combustible o gases de proceso, con datos que permiten identificar ineficiencias y sustentar decisiones de eficiencia operacional.</p></div>
+    <div class="cap"><svg class="ic"><use href="#i-signal"/></svg><h4>IoT y Sensórica</h4><p>Sensores de variables críticas de proceso, como temperatura, vibración, presión y humedad, instalados sobre infraestructura existente sin alterar tu operación.</p></div>
+    <div class="cap"><svg class="ic"><use href="#i-clock"/></svg><h4>Data Loggers</h4><p>Registro histórico embebido de ciclos, eventos y condiciones de operación, incluso sin conectividad, con sincronización automática al restablecerse la señal.</p></div>
+    <div class="cap"><svg class="ic"><use href="#i-crosshair"/></svg><h4>GPS y Geolocalización</h4><p>Trazabilidad de activos móviles y flotas: ubicación en tiempo real, rutas, tiempos de tránsito y geocercas para zonas críticas.</p></div>
+    <div class="cap"><svg class="ic"><use href="#i-network"/></svg><h4>Gestión y Transmisión de Datos</h4><p>Arquitectura de conectividad y encriptación que centraliza, en una sola plataforma, la información proveniente de cualquiera de las soluciones anteriores. Integrable directamente con tu ERP o software de mantenimiento actual.</p></div>
+  </div>
+  <div class="close"><p>Además, desarrollamos soluciones a la medida de cada cliente, partiendo de sus procesos y su arquitectura, y no al revés.</p><ul class="saas"><li>Modelo SaaS</li><li>Integración vía API con tu ERP y tus sistemas actuales</li></ul></div>
+</div></section>
+
+<section class="sec alt" id="industrias"><div class="wrap">
+  <div class="sh"><div><span class="idx"><b>05</b><i></i>Industrias</span><h2>Soluciones Aplicadas a tu Industria</h2></div>
+    <p class="sh-p">Casos de uso típicos por industria. Cada proyecto se define a partir del diagnóstico de tu operación.</p></div>
+  <div class="ind">
+    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-fish"/></svg></div><h3>Acuicultura y pesca</h3><ul><li>Flota terrestre y marítima</li><li>Cadena de frío</li><li>Digitalización de recepción en planta y mantenimiento</li></ul></div>
+    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-leaf"/></svg></div><h3>Agroindustria y exportación de fruta</h3><ul><li>Transporte campo, planta y puerto</li><li>Cadena de frío</li><li>Auditorías de calidad en terreno</li></ul></div>
+    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-basket"/></svg></div><h3>Consumo masivo y alimentos</h3><ul><li>Distribución con flota tercerizada</li><li>Andenes de carga</li><li>Devoluciones</li></ul></div>
+    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-warehouse"/></svg></div><h3>Retail y centros de distribución</h3><ul><li>Visibilidad inbound de proveedores</li><li>Andenes</li><li>Agendamiento de proveedores con IA</li></ul></div>
+    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-truck"/></svg></div><h3>Transporte y operadores logísticos</h3><ul><li>Torre de Control multimarca de GPS</li><li>Evidencia de entrega</li><li>Reportabilidad al mandante</li></ul></div>
+    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-bolt"/></svg></div><h3>Energía y servicios en terreno</h3><ul><li>Telemetría de activos</li><li>Mantenimiento preventivo y correctivo</li><li>Reporte de fallas 24/7</li></ul></div>
+  </div>
+</div></section>
+
+<section class="sec dk" id="plataforma"><div class="wrap">
+  <div class="sh solo"><div><span class="idx"><b>06</b><i></i>La plataforma</span><h2>Visibilidad Operativa las <mark style="background:linear-gradient(180deg,transparent 58%,rgba(212,239,12,.9) 58%,rgba(212,239,12,.9) 94%,transparent 94%);color:#fff">24 Horas</mark></h2></div></div>
+  <div class="plat">
+    <div>
+      <div class="feat"><div class="bd"><svg class="ic"><use href="#i-eye"/></svg></div><div><h4>Visualización en Tiempo Real</h4><p>Estado exacto de cada activo, ubicación o punto de consumo, actualizado de forma continua, disponible las 24 horas del día desde cualquier dispositivo.</p></div></div>
+      <div class="feat"><div class="bd"><svg class="ic"><use href="#i-trend"/></svg></div><div><h4>Analítica de Patrones y Consumo</h4><p>Analiza el comportamiento histórico de cada fuente de datos para identificar tendencias de degradación o ineficiencia antes de que impacten la operación.</p></div></div>
+      <div class="feat"><div class="bd"><svg class="ic"><use href="#i-bell"/></svg></div><div><h4>Alertas Tempranas Automáticas</h4><p>Ante una desviación del rango operativo, una geocerca o un umbral de consumo, el sistema notifica de inmediato al encargado definido por el cliente.</p></div></div>
+    </div>
+    <div>
+      <div class="db">
+        <div class="db-top"><i></i><i></i><i></i><span class="db-title">LIFE-US · PANEL OPERATIVO</span><span class="db-live"><b></b>EN LÍNEA</span></div>
+        <div class="kp"><div class="p"><small>Disponibilidad</small><strong>97.4%</strong></div><div><small>Activos en línea</small><strong>128/131</strong></div><div><small>Alertas activas</small><strong>2</strong></div></div>
+        <div class="pnl"><h5>Tendencia de consumo energético · últimas 24h</h5>
+          <svg class="ch" viewBox="0 0 520 130" preserveAspectRatio="none" fill="none"><defs><linearGradient id="gf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d4ef0c" stop-opacity=".3"/><stop offset="1" stop-color="#d4ef0c" stop-opacity="0"/></linearGradient></defs><path d="M0 30H520M0 62H520M0 94H520" stroke="rgba(255,255,255,.07)"/><path d="M0 78L52 66L104 84L156 50L208 70L260 38L312 62L364 28L416 48L468 34L520 44V130H0Z" fill="url(#gf)"/><polyline points="0,78 52,66 104,84 156,50 208,70 260,38 312,62 364,28 416,48 468,34 520,44" stroke="#d4ef0c" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/><path d="M0 54H520" stroke="#f2b400" stroke-dasharray="6 6" stroke-opacity=".7" vector-effect="non-scaling-stroke"/><circle cx="364" cy="28" r="5" fill="#d4ef0c"/></svg></div>
+        <div class="lw">
+          <div class="pnl"><h5>Alertas</h5><div class="al"><i></i><div>Vehículo F-12 · salida de geocerca autorizada<small>HACE 2 MIN</small></div></div><div class="al"><i></i><div>Umbral de consumo superado en una línea de proceso<small>HACE 14 MIN</small></div></div><div class="al"><i class="g"></i><div>Sincronización de data logger restablecida<small>HACE 1 H</small></div></div></div>
+          <div class="pnl"><h5>Activos</h5><table class="tb2"><tbody><tr><td>Vehículo F-12</td><td><span class="st w">ALERTA</span></td></tr><tr><td>Cámara de frío 02</td><td><span class="st">EN LÍNEA</span></td></tr><tr><td>Línea de envasado</td><td><span class="st w">ALERTA</span></td></tr><tr><td>Grúa portuaria 01</td><td><span class="st">EN LÍNEA</span></td></tr></tbody></table></div>
+        </div>
+      </div>
+      <div class="fig"><span>Fig. 02 · Panel operativo</span><span>Vista ilustrativa · cifras de ejemplo</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="sec" id="acompanamiento"><div class="wrap">
+  <div class="sh"><div><span class="idx"><b>07</b><i></i>El acompañamiento</span><h2>Más Allá de Vender <mark>Tecnología</mark></h2></div>
+    <p class="sh-p">Life-us no opera como un proveedor de dispositivos puntuales. Operamos como un aliado de negocio que acompaña la transformación digital del cliente desde el diagnóstico inicial hasta la validación del retorno de inversión.</p></div>
+  <div class="acc">
+    <div class="acc-c"><svg class="ic"><use href="#i-clipboard"/></svg><span class="mono">Paso 01</span><h4>Levantamiento Técnico Integral</h4><p>Evaluamos en terreno los activos, procesos o flotas críticas, su estado, su criticidad operacional y las condiciones de conectividad del sitio, definiendo qué monitorear primero.</p></div>
+    <div class="acc-c"><svg class="ic"><use href="#i-layers"/></svg><span class="mono">Paso 02</span><h4>Selección y Arquitectura a la Medida</h4><p>Diseñamos qué combinación del portafolio, ya sea medición, IoT, data loggers, GPS o transmisión de datos, corresponde a cada activo, integrándola con los sistemas ya existentes: ERP, mantenimiento, SCADA.</p></div>
+    <div class="acc-c"><svg class="ic"><use href="#i-crosshair"/></svg><span class="mono">Paso 03</span><h4>Definición Conjunta de KPIs</h4><p>Junto a Operaciones y Mantenimiento definimos los indicadores que importan al negocio: disponibilidad, consumo, tiempo entre fallas, cumplimiento de rutas. El dashboard se configura en torno a ellos.</p></div>
+    <div class="acc-c"><svg class="ic"><use href="#i-people"/></svg><span class="mono">Paso 04</span><h4>Acompañamiento y ROI</h4><p>Seguimiento periódico del desempeño de cada solución, ajuste de umbrales y revisión del impacto medible: menos detenciones, menor consumo, mayor control de flota y de activos.</p></div>
+  </div>
+</div></section>
+
+<section class="sec alt" id="implementacion"><div class="wrap">
+  <div class="sh"><div><span class="idx"><b>08</b><i></i>Implementación</span><h2>Piloto Controlado, <mark>Riesgo Acotado</mark></h2></div>
+    <p class="sh-p">Life-us no propone una implementación masiva desde el primer día. Trabajamos bajo una metodología de piloto controlado, diseñada para demostrar valor de forma medible antes de cualquier decisión de escalamiento.</p></div>
+  <div class="tl">
+    <div class="tl-s"><span class="mono">Seleccionar</span><h4>Activo o Proceso Crítico</h4><p>Se identifica, junto al cliente, el activo, vehículo o proceso de mayor impacto operacional como caso de prueba.</p></div>
+    <div class="tl-s"><span class="mono">Medir</span><h4>KPIs Base (Baseline)</h4><p>Se documenta el estado actual: fallas históricas, consumo, tiempos de detención y prácticas vigentes.</p></div>
+    <div class="tl-s"><span class="mono">Instalar</span><h4>Sin Interferencia</h4><p>La tecnología elegida se instala en ventanas ya programadas, sin detener la operación.</p></div>
+    <div class="tl-s key"><span class="wk">Piloto · 4 a 8 semanas</span><span class="mono">Monitorear</span><h4>Validación en Terreno</h4><p>Entre 4 y 8 semanas de monitoreo conjunto, validando alertas y ajustando umbrales reales.</p></div>
+    <div class="tl-s"><span class="mono">Evaluar</span><h4>Resultados y Escalamiento</h4><p>Informe comparativo baseline vs. resultados, como base objetiva para escalar la solución.</p></div>
+  </div>
+</div></section>
+
+<!-- =====================================================================
+     CASOS (SECCIÓN OCULTA)
+     Hoy no hay casos reales autorizados, por eso esta sección y sus enlaces
+     están con el atributo "hidden". Para activarla:
+       1. Quitar "hidden" de esta <section> y de los 3 enlaces href="#casos"
+          (menú de escritorio, panel móvil y footer).
+       2. Descomentar la plantilla de tarjeta de abajo y repetirla para 3 casos
+          reales y autorizados (pueden ser anónimos, por ejemplo
+          "Salmonera, Región de Los Lagos").
+       3. Opcional: descomentar la franja de logos, solo con autorización de
+          cada cliente.
+     Los textos de encabezado de esta sección son provisorios: revisarlos al activarla.
+     ===================================================================== -->
+<section class="sec alt" id="casos" hidden><div class="wrap">
+  <div class="sh"><div><span class="idx"><b>—</b><i></i>Casos</span><h2>Resultados Medibles en Terreno</h2></div>
+    <p class="sh-p">Industria, desafío, solución y resultado de proyectos de Life-US.</p></div>
+  <div class="case-grid">
+    <!-- PLANTILLA DE TARJETA (descomentar y repetir para 3 casos):
+    <article class="case-card">
+      <dl>
+        <div class="case-row"><dt>Industria</dt><dd></dd></div>
+        <div class="case-row"><dt>Desafío</dt><dd></dd></div>
+        <div class="case-row"><dt>Solución</dt><dd></dd></div>
+        <div class="case-row"><dt>Resultado</dt><dd></dd></div>
+      </dl>
+    </article>
+    -->
+  </div>
+  <!-- FRANJA DE LOGOS DE CLIENTES (descomentar solo con autorización de cada cliente):
+  <div class="logo-strip">
+    <img src="" alt="">
+  </div>
+  -->
+</div></section>
+
+<section class="sec" style="padding:72px 0" id="ingenieria-xlink"><div class="wrap"><div class="xlink" style="margin-top:0"><p>¿Necesitas ingeniería en terreno? <em>Escaneo láser 3D, drones, ingeniería inversa y fabricación</em> de piezas y soluciones, con un solo interlocutor.</p><a class="btn" href="/ingenieria/">Ver Ingeniería industrial <svg class="ic"><use href="#i-arrow"/></svg></a></div></div></section>
+
+<section class="sec dk" id="contacto"><div class="wrap ct">
+  <div>
+    <span class="idx"><b>09</b><i></i>Conclusión y contacto</span>
+    <h2>Transformamos datos de consumo, ubicación o proceso en <em>continuidad operacional.</em></h2>
+    <p class="tx">La visibilidad en tiempo real sobre tus activos, flotas y procesos críticos no es un proyecto de tecnología aislado: es la base para reducir detenciones no planificadas, controlar consumo y sostener la continuidad de tus operaciones con información, no con intuición.</p>
+    <p class="q">“Propongamos en conjunto un piloto controlado sobre un activo, flota o proceso crítico de tu operación, con resultados medibles en semanas, no en meses.”</p>
+    <div class="cd">
+      <div><svg class="ic"><use href="#i-mail"/></svg>nicolas@lifeus.cl</div>
+      <div><svg class="ic"><use href="#i-mail"/></svg>joaquin@lifeus.cl</div>
+      <a href="https://wa.me/56963181211" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg>+56 9 6318 1211<svg class="ic go"><use href="#i-arrow-ur"/></svg></a>
+      <a href="https://www.linkedin.com/company/life-us/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-in"/></svg>LinkedIn de LIFE-US<svg class="ic go"><use href="#i-arrow-ur"/></svg></a>
+    </div>
+  </div>
+  <form class="form" id="contactForm" novalidate>
+    <input type="hidden" name="access_key" value="e84f2b87-f813-4b05-aea6-3bc1493b3266">
+    <input type="hidden" name="subject" value="Nueva consulta desde lifeus.cl">
+    <input type="hidden" name="from_name" value="Sitio LIFE-US">
+    <input type="hidden" name="linea" value="Logística y operación">
+    <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+    <h3>Conversemos sobre tu operación</h3><p class="sub">Cuéntanos tu industria y tus activos críticos. Un especialista de LIFE-US se pondrá en contacto para agendar una reunión técnica.</p>
+    <div class="row">
+      <div class="fld"><label for="f-nombre">Nombre <i>*</i></label><input id="f-nombre" type="text" name="nombre" placeholder="Nombre y apellido" required><p class="err">Ingresa tu nombre.</p></div>
+      <div class="fld"><label for="f-empresa">Empresa <i>*</i></label><input id="f-empresa" type="text" name="empresa" placeholder="Empresa" required><p class="err">Ingresa tu empresa.</p></div>
+    </div>
+    <div class="fld"><label for="f-correo">Correo <i>*</i></label><input id="f-correo" type="email" name="correo" placeholder="correo@empresa.com" required><p class="err">Ingresa un correo válido.</p></div>
+    <div class="fld"><label for="activoSelect">Tipo de activo / necesidad</label>
+      <select name="activo" id="activoSelect">
+        <option>Energía, agua o combustible</option>
+        <option>IoT / sensores</option>
+        <option>Flota GPS / Torre de Control</option>
+        <option>Data loggers</option>
+        <option>Integración de datos existentes</option>
+        <option>Digitalización de procesos en terreno (checklists, recepción, despacho, auditorías)</option>
+        <option>Asistente con IA por WhatsApp o voz</option>
+        <option value="Otro">Otro</option>
+      </select></div>
+    <div class="fld fld-otro" id="activoOtroWrap"><label for="activoOtroInput">Describe tu necesidad <i>*</i></label><input id="activoOtroInput" type="text" name="activo_otro" placeholder="Ej: grúa portuaria, silo de almacenamiento, agendamiento de proveedores..."><p class="err">Cuéntanos qué necesitas resolver.</p></div>
+    <div class="fld"><label for="f-mensaje">Cuéntanos sobre tu operación</label><textarea id="f-mensaje" name="mensaje" placeholder="Ej: flota de 40 vehículos sin trazabilidad de rutas..."></textarea></div>
+    <button class="btn" type="submit">Agendar reunión técnica <svg class="ic"><use href="#i-arrow"/></svg></button>
+    <p class="fnote" id="formError" role="alert">No pudimos enviar tu consulta. Intenta de nuevo o escríbenos directamente a nicolas@lifeus.cl.</p>
+    <div class="ok" id="formSuccess" role="status">
+      <div class="bd"><svg class="ic"><use href="#i-tick"/></svg></div>
+      <h4>¡Gracias! Ya recibimos tu solicitud.</h4>
+      <p>Un especialista de LIFE-US se va a poner en contacto a la brevedad para agendar la reunión técnica.</p>
+      <button type="button" class="btn" id="formReset">Enviar otra consulta</button>
+    </div>
+  </form>
+</div></section>
+
+<footer class="ft"><div class="wrap">
+  <div class="ft-in"><a class="logo" href="/" aria-label="LIFE-US, inicio"></a>
+    <nav><a href="#diagnostico">Diagnóstico</a><a href="#rol">Nuestro rol</a><a href="#soluciones">Soluciones</a><a href="#industrias">Industrias</a><a href="#plataforma">Plataforma</a><a href="#implementacion">Implementación</a><a href="#casos" hidden>Casos</a><a href="/ingenieria/">Ingeniería industrial</a><a href="#contacto">Contacto</a><a href="https://www.linkedin.com/company/life-us/" target="_blank" rel="noopener" aria-label="LinkedIn de LIFE-US">LinkedIn</a></nav></div>
+  <div class="ft-b"><span>© 2026 LIFE-US. Todos los derechos reservados.</span><span>Soluciones tecnológicas para la industria.</span></div>
+</div></footer>
+
+<a class="wa-float" id="waFloat" href="https://wa.me/56963181211" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa-solid"/></svg>
+</a>
+<script src="/assets/site.js?v=3"></script>
+</body>
+</html>

@@ -3,328 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LIFE-US | Soluciones Tecnológicas para la Industria</title>
-<meta name="description" content="Conectamos la operación en terreno (flotas, andenes, plantas y activos) con tu ERP, sin cambiar tus sistemas. Torre de Control IoT, digitalización en terreno e IA conversacional.">
-<meta property="og:title" content="LIFE-US | Soluciones Tecnológicas para la Industria">
-<meta property="og:description" content="Conectamos la operación en terreno (flotas, andenes, plantas y activos) con tu ERP, sin cambiar tus sistemas. Torre de Control IoT, digitalización en terreno e IA conversacional.">
+<title>LIFE-US | Continuidad operacional de activos críticos</title>
+<meta name="description" content="Soluciones tecnológicas y de ingeniería para la industria: visibilidad en tiempo real de tu operación, captura 3D, ingeniería y fabricación industrial.">
+<meta property="og:title" content="LIFE-US | Continuidad operacional de activos críticos">
+<meta property="og:description" content="Soluciones tecnológicas y de ingeniería para la industria: visibilidad en tiempo real de tu operación, captura 3D, ingeniería y fabricación industrial.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_CL">
 <meta property="og:url" content="https://www.lifeus.cl/">
 <meta property="og:image" content="https://www.lifeus.cl/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="LIFE-US: visibilidad en tiempo real de tu operación">
+<meta property="og:image:alt" content="LIFE-US: continuidad operacional de tus activos críticos">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="LIFE-US | Soluciones Tecnológicas para la Industria">
-<meta name="twitter:description" content="Conectamos la operación en terreno (flotas, andenes, plantas y activos) con tu ERP, sin cambiar tus sistemas. Torre de Control IoT, digitalización en terreno e IA conversacional.">
+<meta name="twitter:title" content="LIFE-US | Continuidad operacional de activos críticos">
+<meta name="twitter:description" content="Soluciones tecnológicas y de ingeniería para la industria: visibilidad en tiempo real de tu operación, captura 3D, ingeniería y fabricación industrial.">
 <meta name="twitter:image" content="https://www.lifeus.cl/og-image.png">
-<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="icon" type="image/png" href="/assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-/* ===== TOKENS ===== */
-:root{--lime:#d4ef0c;--lime-dim:#a9bf00;--lime-050:#f7fbd8;--amber:#c98f00;--ink:#1d1d1b;--ink-soft:#2b2b28;--ink-800:#3a3a36;--bg:#fdfdfb;--g100:#f2f2ec;--g300:#cfcfc8;--g400:#a9a9a1;--g500:#84847c;--tx:#4a4a44;--tx-soft:#77776f;--bd:#e3e3db;--fh:'Space Grotesk','Segoe UI',system-ui,sans-serif;--fb:'Inter','Segoe UI',system-ui,sans-serif;--fm:'JetBrains Mono',ui-monospace,Consolas,monospace}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:84px}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--fb);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-a{color:inherit;text-decoration:none}
-h1,h2,h3,h4{font-family:var(--fh);margin:0;font-weight:600;letter-spacing:-.03em}
-p{margin:0}ul{list-style:none;margin:0;padding:0}
-.wrap{max-width:1240px;margin:0 auto;padding:0 40px}
-.ic{width:24px;height:24px;display:block;flex:none}
-.mono{font-family:var(--fm);font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--tx-soft)}
-mark{background:linear-gradient(180deg,transparent 58%,var(--lime) 58%,var(--lime) 94%,transparent 94%);color:inherit;padding:0 .06em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:3px}
-.dk :focus-visible{outline-color:var(--lime)}
-
-/* ===== HEADER ===== */
-.hd{position:sticky;top:0;z-index:60;background:rgba(253,253,251,.88);backdrop-filter:saturate(150%) blur(10px);border-bottom:1px solid var(--bd)}
-.hd-in{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
-.logo{display:block;width:112px;height:21px;background:url(data:image/png;base64,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) left center/contain no-repeat;flex:none}
-.nav{display:flex;gap:28px;font-size:14px;font-weight:500;color:var(--tx)}
-.nav a{position:relative;padding:6px 0;white-space:nowrap;transition:color .15s}
-.nav a::after{content:'';position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--lime-dim);transform:scaleX(0);transform-origin:left;transition:transform .25s}
-.nav a:hover,.nav a.on{color:var(--ink)}
-.nav a:hover::after,.nav a.on::after{transform:scaleX(1)}
-.cta{display:inline-flex;align-items:center;gap:12px;background:var(--ink);color:#fff;font-family:var(--fh);font-weight:600;font-size:14px;padding:6px 6px 6px 22px;border-radius:999px;transition:transform .2s;white-space:nowrap}
-.cta:hover{transform:translateY(-1px)}
-.cta .arr{width:34px;height:34px;border-radius:50%;background:var(--lime);color:var(--ink);display:grid;place-items:center}
-.cta .arr .ic{width:16px;height:16px}
-.burger{display:none;width:44px;height:44px;border:1.5px solid var(--ink);border-radius:50%;background:transparent;cursor:pointer;align-items:center;justify-content:center;flex-direction:column;gap:4px;padding:0}
-.burger i{display:block;width:18px;height:2px;background:var(--ink);transition:.2s}
-.burger.open i:nth-child(1){transform:translateY(6px) rotate(45deg)}.burger.open i:nth-child(2){opacity:0}.burger.open i:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
-.mp{display:none;border-top:1px solid var(--bd);background:var(--bg)}
-.mp.open{display:block}
-.mp a{display:flex;justify-content:space-between;padding:15px 40px;border-bottom:1px solid var(--bd);font-weight:500}
-.mp a::after{content:'→';color:var(--g400)}
-
-/* ===== BUTTONS ===== */
-.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--fh);font-weight:600;font-size:15px;padding:15px 26px;border-radius:999px;border:1.5px solid var(--ink);transition:.2s;cursor:pointer;white-space:nowrap}
-.btn.pri{background:var(--lime);border-color:var(--lime);color:var(--ink)}
-.btn.pri:hover{background:var(--ink);border-color:var(--ink);color:var(--lime)}
-.btn.ghost{background:transparent;color:var(--ink)}
-.btn.ghost:hover{background:var(--ink);color:#fff}
-.btn .ic{width:16px;height:16px}
-
-/* ===== HERO ===== */
-.hero{padding:64px 0 96px}
-.hero-meta{display:flex;justify-content:space-between;gap:20px;padding-bottom:20px;border-bottom:1px solid var(--ink);margin-bottom:52px}
-.hero h1{font-size:clamp(36px,4.9vw,70px);line-height:1.03;letter-spacing:-.045em;font-weight:600;max-width:1100px}
-.hero-g{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;margin-top:56px}
-.lead{font-size:19px;line-height:1.6;color:var(--tx);max-width:520px}
-.ctas{display:flex;gap:12px;margin:30px 0 36px;flex-wrap:wrap}
-.trust li{display:grid;grid-template-columns:44px 1fr;align-items:baseline;gap:8px;padding:14px 0;border-top:1px solid var(--bd);font-family:var(--fh);font-weight:500;font-size:18px;letter-spacing:-.02em}
-.trust li:last-child{border-bottom:1px solid var(--bd)}
-.trust .mono{color:var(--lime-dim)}
-
-/* radar */
-.radar-w{position:relative}
-.radar{position:relative;width:min(500px,100%);aspect-ratio:1;margin:0 auto}
-.radar::before{content:'';position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at 50% 50%,#fff 0,var(--g100) 72%)}
-.radar>svg{position:absolute;inset:0;width:100%;height:100%}
-.sweep{position:absolute;inset:3%;border-radius:50%;background:conic-gradient(from 0deg,transparent 0 285deg,rgba(212,239,12,.10) 300deg,rgba(212,239,12,.45) 352deg,rgba(169,191,0,.85) 360deg);animation:spin 8s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-.pulse{animation:pl 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pl{0%,100%{opacity:.9;transform:scale(1)}50%{opacity:.25;transform:scale(2.4)}}
-.dash-r{animation:dr 6s linear infinite}
-@keyframes dr{to{stroke-dashoffset:-120}}
-.fl{position:absolute;background:#fff;border:1px solid var(--ink);padding:11px 15px;box-shadow:6px 6px 0 var(--lime)}
-.fl small{display:block;font-family:var(--fm);font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--tx-soft);margin-bottom:3px}
-.fl strong{font-family:var(--fh);font-size:26px;letter-spacing:-.035em;color:var(--ink);line-height:1.1;display:block}
-.fl.a{left:-4%;top:10%}
-.fl.b{right:-4%;top:48%}
-.fl.c{left:0;bottom:3%;background:#fff8e1;border-color:var(--amber);box-shadow:6px 6px 0 rgba(201,143,0,.25);display:flex;gap:11px;align-items:center;max-width:300px;padding:12px 16px}
-.fl.c .ic{color:var(--amber);width:20px;height:20px}
-.fl.c span{font-size:13px;color:#6b4a00;line-height:1.4;font-weight:500}
-.fig{font-family:var(--fm);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--tx-soft);margin-top:18px;display:flex;justify-content:space-between;gap:16px}
-
-/* ===== SECTIONS ===== */
-.sec{padding:112px 0;border-top:1px solid var(--bd)}
-.alt{background:var(--g100)}
-.dk{background:var(--ink);color:#fff;border-top:0}
-.sh{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:end;margin-bottom:64px}
-.idx{display:flex;align-items:center;gap:12px;font-family:var(--fm);font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--tx-soft);margin-bottom:22px}
-.idx b{font-family:var(--fh);font-size:15px;color:var(--ink);letter-spacing:0}
-.idx i{width:28px;height:2px;background:var(--lime-dim)}
-.dk .idx b{color:#fff}.dk .idx{color:var(--g400)}.dk .idx i{background:var(--lime)}
-.sec h2{font-size:clamp(34px,4.2vw,58px);line-height:1.04;letter-spacing:-.04em}
-.dk h2{color:#fff}
-.sh.solo{grid-template-columns:1fr}
-.sh-p{font-size:17px;color:var(--tx);max-width:520px;padding-bottom:6px}
-.dk .sh-p{color:var(--g300)}
-
-/* ===== PAINS ===== */
-.pain{display:grid;grid-template-columns:96px 1fr 1.35fr;gap:40px;padding:34px 20px;border-top:1px solid var(--bd);align-items:start;transition:background .25s}
-.pain:last-of-type{border-bottom:1px solid var(--bd)}
-.pain:hover{background:var(--g100)}
-.pain .n{font-family:var(--fh);font-size:56px;line-height:.95;font-weight:500;letter-spacing:-.05em;color:var(--g400);transition:color .25s}
-.pain:hover .n{color:var(--ink)}
-.pain h3{font-size:26px;line-height:1.15}
-.pain p{color:var(--tx);font-size:16px}
-.callout{margin-top:48px;background:var(--ink);color:#fff;padding:40px 48px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center;font-family:var(--fh);font-size:clamp(20px,2.2vw,28px);line-height:1.32;letter-spacing:-.02em}
-.callout .bolt{width:44px;height:44px;color:var(--lime)}
-.callout em{font-style:normal;color:var(--lime)}
-
-/* ===== ROLE ===== */
-.role{display:grid;grid-template-columns:1fr 1fr;gap:88px;align-items:start}
-.role .tx{font-size:18px;color:var(--tx);margin-bottom:32px;max-width:540px}
-.qbox{background:var(--ink);color:#fff;padding:28px 30px;border-left:4px solid var(--lime)}
-.qbox h4{font-size:19px;margin-bottom:8px}.qbox p{color:var(--g300);font-size:15.5px}
-.steps{position:relative}
-.steps::before{content:'';position:absolute;left:19px;top:14px;bottom:14px;border-left:1.5px dashed var(--g400)}
-.step{display:grid;grid-template-columns:40px 1fr;gap:24px;padding-bottom:34px;position:relative}
-.step:last-child{padding-bottom:0}
-.step .dot{width:40px;height:40px;border-radius:50%;background:var(--g100);border:1.5px solid var(--ink);display:grid;place-items:center;font-family:var(--fm);font-size:11px;font-weight:500}
-.step h4{font-size:19px;margin-bottom:4px}
-.step p{font-size:15.5px;color:var(--tx)}
-.bq{margin-top:96px;padding-top:56px;border-top:1px solid var(--g300);display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:start}
-.bq .q{font-family:var(--fh);font-size:130px;line-height:1;color:var(--lime-dim);font-weight:700;height:90px;overflow:hidden;margin-top:-6px}
-.bq p{font-family:var(--fh);font-size:clamp(26px,3.4vw,46px);line-height:1.12;letter-spacing:-.035em;max-width:940px}
-
-/* ===== SOLUTIONS TABS ===== */
-.tabs{display:grid;grid-template-columns:360px 1fr;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
-.tbl{display:flex;flex-direction:column;border-right:1px solid var(--ink)}
-.tb{display:grid;grid-template-columns:48px 1fr 18px;gap:16px;align-items:center;text-align:left;padding:30px 24px;background:transparent;border:0;border-bottom:1px solid var(--bd);color:var(--tx);cursor:pointer;font:inherit;transition:background .2s}
-.tb:last-child{border-bottom:0}
-.tb .o{width:48px;height:48px;border-radius:50%;border:1.5px solid var(--ink);display:grid;place-items:center;color:var(--ink);transition:.2s}
-.tb small{display:block;font-family:var(--fm);font-size:10.5px;letter-spacing:.1em;color:var(--tx-soft);margin-bottom:4px}
-.tb strong{font-family:var(--fh);font-size:19px;line-height:1.15;letter-spacing:-.03em;color:var(--ink);font-weight:600}
-.tb .ar{width:16px;height:16px;opacity:0;transform:translateX(-8px);transition:.25s;color:var(--lime)}
-.tb:hover{background:var(--g100)}
-.tb.on{background:var(--ink)}
-.tb.on .o{background:var(--lime);border-color:var(--lime)}
-.tb.on strong{color:#fff}.tb.on small{color:var(--g400)}
-.tb.on .ar{opacity:1;transform:none}
-.pnw{padding:44px 48px 48px}
-.pn{display:none;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
-.pn.on{display:grid}
-.pn-h{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;padding-bottom:20px;border-bottom:1px solid var(--bd);margin-bottom:4px}
-.bl li{position:relative;padding:0 0 15px 24px;font-size:16px;color:var(--tx);line-height:1.55}
-.bl li::before{content:'';position:absolute;left:0;top:.55em;width:8px;height:8px;background:var(--lime);outline:1.5px solid var(--lime-dim);outline-offset:1px}
-.vis{border:1px solid var(--ink);background:var(--g100);min-height:300px;padding:18px;position:relative}
-.vis svg.map{width:100%;margin-top:6px;display:block}
-.phone{width:226px;margin:6px auto 0;border:1.5px solid var(--ink);border-radius:26px;padding:16px 14px;background:#fff}
-.ck{display:flex;align-items:center;gap:10px;font-size:12.5px;color:var(--tx);padding:8px 0;border-bottom:1px solid var(--bd)}
-.ck i{width:16px;height:16px;border:1.5px solid var(--ink);display:grid;place-items:center;flex:none}
-.ck.d i{background:var(--lime)}
-.ck i .ic{width:11px;height:11px}
-.sig{margin-top:10px;height:40px;border:1px dashed var(--ink);display:grid;place-items:center;font-family:var(--fm);font-size:9.5px;color:var(--tx-soft);letter-spacing:.08em}
-.sync{margin-top:10px;font-family:var(--fm);font-size:10px;color:var(--ink);display:flex;gap:7px;align-items:center;letter-spacing:.06em}
-.sync b{width:8px;height:8px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 2px var(--ink)}
-.chat{display:flex;flex-direction:column;gap:10px;max-width:300px;margin:6px auto 0}
-.bu{padding:10px 13px;font-size:13px;line-height:1.4;max-width:90%}
-.bu.u{align-self:flex-end;background:var(--lime);color:var(--ink);border-radius:14px 14px 3px 14px}
-.bu.b{background:#fff;border:1px solid var(--ink);color:var(--tx);border-radius:14px 14px 14px 3px}
-.opts{display:flex;gap:6px;flex-wrap:wrap}.opts span{border:1px solid var(--ink);background:var(--g100);color:var(--ink);border-radius:999px;padding:3px 11px;font-size:11.5px;font-family:var(--fm)}
-.subhd{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:end;margin:96px 0 32px}
-.subhd h3{font-size:clamp(26px,2.8vw,38px);line-height:1.1}
-.subhd p{color:var(--tx);font-size:16px;max-width:460px}
-.caps{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--bd)}
-.cap{padding:28px 24px 12px 0;border-right:1px solid var(--bd);margin-right:24px}
-.cap:last-child{border-right:0;margin-right:0}
-.cap .ic{width:30px;height:30px;color:var(--lime-dim);margin-bottom:18px}
-.cap h4{font-size:18px;margin-bottom:10px;line-height:1.2}
-.cap p{font-size:14.5px;color:var(--tx);line-height:1.6}
-.close{margin-top:72px;display:flex;justify-content:space-between;align-items:center;gap:40px;background:var(--g100);padding:36px 44px;border-left:4px solid var(--lime)}
-.close p{font-family:var(--fh);font-size:23px;letter-spacing:-.02em;line-height:1.3;max-width:640px}
-.saas{display:grid;gap:10px;flex:0 0 320px}
-.saas li{display:flex;gap:12px;align-items:flex-start;font-size:14.5px;line-height:1.45;color:var(--ink);font-weight:500}
-.saas li::before{content:"";width:9px;height:9px;background:var(--lime);outline:1.5px solid var(--lime-dim);outline-offset:1px;margin-top:.5em;flex:none}
-
-
-/* ===== INDUSTRIES ===== */
-.ind{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink)}
-.ind-c{padding:38px 34px 44px;border-right:1px solid var(--g300);border-bottom:1px solid var(--g300);transition:background .25s;position:relative}
-.ind-c:nth-child(3n){border-right:0}
-.ind-c:hover{background:var(--lime)}
-.ind-c .ring{width:60px;height:60px;border-radius:50%;border:1.5px solid var(--ink);display:grid;place-items:center;margin-bottom:44px;transition:.25s}
-.ind-c .ring .ic{width:28px;height:28px}
-.ind-c:hover .ring{background:var(--ink);color:var(--lime)}
-.ind-c h3{font-size:23px;line-height:1.15;margin-bottom:18px;min-height:2.3em}
-.ind-c li{font-size:15px;padding:8px 0;border-top:1px solid var(--g300);color:var(--tx);transition:border-color .25s,color .25s}
-.ind-c:hover li{border-color:rgba(29,29,27,.25);color:var(--ink)}
-.ind-c .go{position:absolute;right:30px;top:40px;opacity:0;transform:translate(-6px,6px);transition:.25s;width:22px;height:22px}
-.ind-c:hover .go{opacity:1;transform:none}
-
-/* ===== PLATFORM (dark band) ===== */
-.plat{display:grid;grid-template-columns:.78fr 1.22fr;gap:64px;align-items:start}
-.feat{display:grid;grid-template-columns:48px 1fr;gap:20px;padding:26px 0;border-top:1px solid rgba(255,255,255,.14)}
-.feat:last-child{border-bottom:1px solid rgba(255,255,255,.14)}
-.feat .bd{width:48px;height:48px;border-radius:50%;background:var(--lime);color:var(--ink);display:grid;place-items:center}
-.feat h4{font-size:20px;margin-bottom:6px;color:#fff}
-.feat p{font-size:15.5px;color:var(--g300)}
-.db{background:#121211;border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:22px;box-shadow:0 0 0 1px rgba(212,239,12,.06),0 40px 90px -30px rgba(212,239,12,.18)}
-.db-top{display:flex;align-items:center;gap:7px;margin-bottom:16px}
-.db-top i{width:10px;height:10px;border-radius:50%;background:#ff5f56}.db-top i:nth-child(2){background:#ffbd2e}.db-top i:nth-child(3){background:#27c93f}
-.db-title{font-family:var(--fh);font-size:12.5px;font-weight:600;color:var(--g400);margin-left:10px}
-.db-live{margin-left:auto;color:var(--lime);font-family:var(--fm);font-size:11px;letter-spacing:.08em;display:flex;gap:7px;align-items:center}
-.db-live b{width:7px;height:7px;border-radius:50%;background:var(--lime);box-shadow:0 0 8px var(--lime)}
-.kp{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:10px}
-.kp div,.pnl{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:15px}
-.kp small,.pnl h5{display:block;margin:0 0 8px;font-family:var(--fm);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--g500);font-weight:500}
-.kp strong{font-family:var(--fh);font-size:30px;letter-spacing:-.04em;color:#fff;line-height:1.1}.kp .p strong{color:var(--lime)}
-.pnl svg.ch{width:100%;height:130px;display:block}
-.lw{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
-.al{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:12.5px;color:var(--g300);line-height:1.4}
-.al:last-child{border:0}
-.al i{width:8px;height:8px;border-radius:50%;background:#f2b400;margin-top:5px;flex:none;box-shadow:0 0 8px #f2b400}.al i.g{background:var(--lime);box-shadow:0 0 8px var(--lime)}
-.al small{display:block;color:var(--g500);font-family:var(--fm);font-size:9.5px;letter-spacing:.06em;margin-top:2px}
-.tb2{width:100%;border-collapse:collapse;font-size:12.5px}
-.tb2 td{padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08);color:var(--g300)}
-.tb2 tr:last-child td{border:0}
-.tb2 td:last-child{text-align:right}
-.st{font-family:var(--fm);font-size:9.5px;letter-spacing:.08em;padding:3px 9px;border-radius:999px;border:1px solid rgba(212,239,12,.4);color:var(--lime);background:rgba(212,239,12,.08)}
-.st.w{border-color:rgba(242,180,0,.45);color:#f2b400;background:rgba(242,180,0,.08)}
-.dk .fig{color:var(--g500)}
-
-/* ===== PROCESS ===== */
-.acc{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ink)}
-.acc-c{padding:30px 28px 12px 0;margin-right:28px;border-right:1px solid var(--bd)}
-.acc-c:last-child{border-right:0;margin-right:0}
-.acc-c .ic{width:30px;height:30px;color:var(--lime-dim);margin-bottom:56px}
-.acc-c .mono{display:block;margin-bottom:10px}
-.acc-c h4{font-size:21px;line-height:1.2;margin-bottom:12px}
-.acc-c p{font-size:15px;color:var(--tx)}
-.tl{display:grid;grid-template-columns:repeat(5,1fr);gap:28px;position:relative;margin-top:36px;padding-top:30px}
-.tl::before{content:'';position:absolute;left:0;right:0;top:41px;border-top:1.5px solid var(--ink)}
-.tl-s{position:relative;padding-top:48px}
-.tl-s::before{content:'';position:absolute;left:0;top:0;width:24px;height:24px;border-radius:50%;background:var(--lime);border:1.5px solid var(--ink)}
-.tl-s .mono{color:var(--ink);font-weight:500}
-.tl-s h4{font-size:20px;line-height:1.2;margin:8px 0 10px}
-.tl-s p{font-size:15px;color:var(--tx)}
-.tl-s.key::before{width:30px;height:30px;top:-3px;box-shadow:0 0 0 6px rgba(212,239,12,.45)}
-.tl-s .wk{position:absolute;left:0;top:-34px;background:var(--ink);color:var(--lime);font-family:var(--fm);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;white-space:nowrap}
-
-/* ===== CONTACT ===== */
-.ct{display:grid;grid-template-columns:1fr 1fr;gap:88px;align-items:start}
-.ct .idx{margin-bottom:26px}
-.ct h2{font-size:clamp(34px,4.3vw,60px);line-height:1.03;margin-bottom:28px}
-.ct h2 em{font-style:normal;color:var(--lime)}
-.ct .tx{color:var(--g300);font-size:17px;max-width:520px}
-.ct .q{margin-top:28px;padding-left:20px;border-left:2px solid var(--lime);color:var(--g400);font-style:italic;max-width:520px;font-size:16px}
-.cd{margin-top:44px}
-.cd a,.cd div{display:flex;align-items:center;gap:16px;padding:15px 0;border-top:1px solid rgba(255,255,255,.14);font-family:var(--fh);font-size:20px;letter-spacing:-.01em;transition:color .2s}
-.cd>*:last-child{border-bottom:1px solid rgba(255,255,255,.14)}
-.cd a:hover{color:var(--lime)}
-.cd .ic{width:20px;height:20px;color:var(--lime)}
-.cd .go{margin-left:auto;opacity:.5}
-.form{background:#fff;color:var(--ink);padding:40px;position:sticky;top:96px}
-.form h3{font-size:26px;margin-bottom:6px}
-.form .sub{font-size:15px;color:var(--tx);margin-bottom:26px}
-.fld{margin-bottom:16px}
-.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.fld label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;font-family:var(--fh)}
-.fld label i{color:#c0392b;font-style:normal}
-.fld input,.fld select,.fld textarea{width:100%;padding:13px 14px;border:1px solid var(--bd);background:var(--g100);border-radius:3px;font:inherit;font-size:15px;color:var(--ink)}
-.fld input:focus,.fld select:focus,.fld textarea:focus{outline:none;border-color:var(--lime-dim);background:#fff;box-shadow:0 0 0 3px rgba(212,239,12,.4)}
-.fld textarea{min-height:96px;resize:vertical}
-.form .btn{width:100%;justify-content:center;background:var(--ink);color:#fff}
-.form .btn:hover{background:var(--lime);color:var(--ink);border-color:var(--lime)}
-.form .btn:disabled{opacity:.6;cursor:wait}
-.err{display:none;color:#c0392b;font-size:12.5px;margin-top:6px}
-.fld.has-error .err{display:block}
-.fld.has-error input,.fld.has-error textarea,.fld.has-error select{border-color:#c0392b}
-.fld-otro{display:none}.fld-otro.open{display:block}
-.fnote{display:none;color:#c0392b;font-size:14px;margin-top:14px}
-.ok{display:none;text-align:center;padding:24px 0}
-.ok .bd{width:56px;height:56px;border-radius:50%;background:var(--lime);color:var(--ink);display:grid;place-items:center;margin:0 auto 18px}
-.ok h4{font-size:24px;margin-bottom:10px}
-.ok p{color:var(--tx);margin-bottom:22px}
-.form.is-success>*:not(.ok){display:none}
-.form.is-success>.ok{display:block}
-.form .ok .btn{width:auto;display:inline-flex;background:var(--g100);color:var(--ink)}
-
-/* ===== CASOS (oculta hasta contar con casos reales) ===== */
-[hidden]{display:none!important}
-.case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.case-card{background:#fff;border:1px solid var(--bd);padding:28px 24px}
-.case-card dl{margin:0}
-.case-row{margin:0 0 14px}.case-row:last-child{margin-bottom:0}
-.case-row dt{font-family:var(--fm);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--lime-dim);margin:0 0 4px}
-.case-row dd{margin:0;font-size:15px;color:var(--tx)}
-.logo-strip{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:28px 44px;margin-top:52px;padding-top:32px;border-top:1px solid var(--bd)}
-.logo-strip img{height:34px;width:auto;opacity:.7;filter:grayscale(1)}
-
-/* ===== BOTÓN FLOTANTE DE WHATSAPP ===== */
-.wa-float{position:fixed;right:22px;bottom:22px;z-index:70;width:58px;height:58px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 22px rgba(29,29,27,.22),0 2px 6px rgba(37,211,102,.35);transition:transform .18s ease,box-shadow .18s ease,opacity .2s ease}
-.wa-float:hover{transform:translateY(-2px) scale(1.04);box-shadow:0 12px 28px rgba(29,29,27,.26),0 3px 8px rgba(37,211,102,.45)}
-.wa-float svg{width:30px;height:30px;display:block}
-.wa-float.is-away{opacity:0;pointer-events:none;transform:translateY(8px)}
-
-/* ===== FOOTER ===== */
-.ft{padding:44px 0 36px;border-top:1px solid var(--bd)}
-.ft-in{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;font-size:14px;color:var(--tx)}
-.ft nav{display:flex;gap:24px;flex-wrap:wrap;font-weight:500}
-.ft nav a:hover{color:var(--ink)}
-.ft-b{margin-top:28px;padding-top:22px;border-top:1px solid var(--bd);display:flex;justify-content:space-between;color:var(--tx-soft);font-size:13px;gap:16px;flex-wrap:wrap}
-
-/* ===== RESPONSIVE ===== */
-@media (max-width:1200px){.nav,.hd .cta{display:none}.burger{display:flex}}
-@media (max-width:1080px){.case-grid{grid-template-columns:1fr 1fr}.hero-g,.role,.plat,.ct,.sh,.subhd{grid-template-columns:1fr;gap:40px}.sh{margin-bottom:44px;align-items:start}.pain{grid-template-columns:70px 1fr;gap:20px}.pain p{grid-column:2}.tabs{grid-template-columns:1fr}.tbl{flex-direction:row;border-right:0;border-bottom:1px solid var(--ink);overflow-x:auto}.tb{flex:1 0 270px;border-bottom:0;border-right:1px solid var(--bd)}.pnw{padding:32px 24px}.pn{grid-template-columns:1fr}.caps,.acc{grid-template-columns:1fr 1fr}.cap,.acc-c{margin:0;padding-right:20px;padding-bottom:24px}.ind{grid-template-columns:1fr 1fr}.ind-c:nth-child(3n){border-right:1px solid var(--g300)}.ind-c:nth-child(2n){border-right:0}.tl{grid-template-columns:1fr 1fr;row-gap:40px}.close{flex-direction:column;align-items:flex-start}.saas{flex:none}.form{position:static}.hero{padding-top:40px}.radar{width:min(460px,92%)}}
-@media (max-width:640px){.wa-float{right:16px;bottom:18px;width:54px;height:54px}.wa-float svg{width:28px;height:28px}.ft{padding-bottom:96px}.case-grid{grid-template-columns:1fr}.wrap{padding:0 20px}.mp a{padding:15px 20px}.hero br{display:none}.hero-meta{flex-direction:column;gap:6px}.sec{padding:76px 0}.callout{grid-template-columns:1fr;padding:28px}.caps,.acc,.ind,.tl,.row,.kp,.lw{grid-template-columns:1fr}.ind-c{border-right:0!important}.ind-c h3{min-height:0}.form{padding:26px}.fl{display:none}.bq{grid-template-columns:1fr}.bq .q{height:50px;font-size:100px}.pn-h{flex-direction:column;align-items:flex-start;gap:6px}.tl-s .wk{top:-30px}.db{padding:16px}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
-</style>
+<link rel="stylesheet" href="/assets/site.css?v=3">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -368,212 +66,67 @@ mark{background:linear-gradient(180deg,transparent 58%,var(--lime) 58%,var(--lim
 <symbol id="i-api" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 5l-4 14"/></symbol>
 <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
 <symbol id="i-wa-solid" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></symbol>
+<symbol id="i-scan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V5.5A1.5 1.5 0 0 1 5.5 4H8M16 4h2.5A1.5 1.5 0 0 1 20 5.5V8M20 16v2.5a1.5 1.5 0 0 1-1.5 1.5H16M8 20H5.5A1.5 1.5 0 0 1 4 18.5V16"/><path d="M12 7.6l4 2.2v4.4l-4 2.2-4-2.2V9.8z"/><path d="M8 9.8l4 2.2 4-2.2M12 12v4.4"/></symbol>
+<symbol id="i-mountain" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 19.5L9.5 7l4 6.5 2.5-3.5 5.5 9.5z"/><path d="M8 10.2l1.5 1.6 1.5-1.4"/></symbol>
+<symbol id="i-factory" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5V10.5l5.5 3.2v-3.2l5.5 3.2V5h4v15.5z"/><path d="M7 17h1.5M11.5 17H13M16 17h1.5"/></symbol>
+<symbol id="i-pipe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18M6 8.5v7M18 8.5v7"/><path d="M12 12V6.5M10 6.5h4"/></symbol>
 </defs>
 </svg>
 
+<div class="sw"><div class="wrap sw-in"><div class="sw-l"><a href="/" class="on">LIFE-US</a><a href="/logistica/">Logística y operación</a><a href="/ingenieria/">Ingeniería industrial</a></div><span class="sw-t">Continuidad operacional de activos críticos</span></div></div>
 <header class="hd"><div class="wrap hd-in">
-  <a class="logo" href="#top" aria-label="LIFE-US"></a>
-  <nav class="nav" id="nav"><a href="#diagnostico">Diagnóstico</a><a href="#rol">Nuestro rol</a><a href="#soluciones">Soluciones</a><a href="#industrias">Industrias</a><a href="#plataforma">Plataforma</a><a href="#implementacion">Implementación</a><!-- CASOS (oculto): para activarlo, quitar "hidden" de este enlace, del del panel móvil, del del footer y de <section id="casos"> --><a href="#casos" hidden>Casos</a><a href="#contacto">Contacto</a></nav>
+  <a class="logo" href="/" aria-label="LIFE-US, inicio"></a>
+  <nav class="nav" id="nav"><a href="#lineas">Nuestras líneas</a><a href="#metodo">Cómo trabajamos</a><a href="#contacto">Contacto</a></nav>
   <a class="cta" href="#contacto">Agendar reunión técnica <span class="arr"><svg class="ic"><use href="#i-arrow"/></svg></span></a>
   <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><i></i><i></i><i></i></button>
 </div>
-<div class="mp" id="mp"><a href="#diagnostico">Diagnóstico</a><a href="#rol">Nuestro rol</a><a href="#soluciones">Soluciones</a><a href="#industrias">Industrias</a><a href="#plataforma">Plataforma</a><a href="#implementacion">Implementación</a><a href="#casos" hidden>Casos</a><a href="#contacto">Contacto</a></div></header>
+<div class="mp" id="mp"><a href="#lineas">Nuestras líneas</a><a href="/logistica/">Logística y operación</a><a href="/ingenieria/">Ingeniería industrial</a><a href="#metodo">Cómo trabajamos</a><a href="#contacto">Contacto</a></div></header>
 
 <section class="hero" id="top"><div class="wrap">
-  <div class="hero-meta mono"><span>● Soluciones tecnológicas para la industria</span><span>Activos críticos · Flotas · Plantas · Andenes · Equipos en terreno</span></div>
-  <h1>Asegura la continuidad operacional <br>con <mark>visibilidad en tiempo real.</mark></h1>
-  <div class="hero-g">
+  <div class="hero-meta mono"><span>● Soluciones tecnológicas para la industria</span><span>Logística · Operación en terreno · Ingeniería industrial</span></div>
+  <h1>Asegura la continuidad operacional <br>de tus <mark>activos críticos.</mark></h1>
+  <div class="hero-g" style="grid-template-columns:minmax(0,760px);margin-top:40px">
     <div>
-      <p class="lead">Integramos tus flotas, plantas, andenes y equipos en terreno con tu ERP, sin cambiar tus sistemas. Y si te falta algo, también lo resolvemos: GPS con servicio de seguimiento y asesoría e implementación de ERP. Visibilidad en tiempo real, procesos digitales y atención automatizada con IA.</p>
-      <div class="ctas"><a class="btn pri" href="#contacto">Solicitar un Piloto <svg class="ic"><use href="#i-arrow"/></svg></a><a class="btn ghost" href="#diagnostico">Ver el diagnóstico</a></div>
-      <ul class="trust"><li><span class="mono">01</span>Agnósticos al hardware</li><li><span class="mono">02</span>Integración vía API</li><li><span class="mono">03</span>Piloto controlado de 4 a 8 semanas</li></ul>
-    </div>
-    <div class="radar-w">
-      <div class="radar">
-        <svg viewBox="0 0 560 560" fill="none" aria-hidden="true">
-          <circle cx="280" cy="280" r="272" stroke="rgba(29,29,27,.22)"/><circle cx="280" cy="280" r="204" stroke="rgba(29,29,27,.14)"/><circle cx="280" cy="280" r="136" stroke="rgba(29,29,27,.14)"/><circle cx="280" cy="280" r="68" stroke="rgba(29,29,27,.14)"/>
-          <path d="M280 8V552M8 280H552" stroke="rgba(29,29,27,.1)"/><path d="M88 88L472 472M472 88L88 472" stroke="rgba(29,29,27,.05)"/>
-          <path class="dash-r" d="M96 400C150 318 214 350 268 282S386 214 466 150" stroke="#a9bf00" stroke-width="2.4" stroke-dasharray="7 9" stroke-linecap="round"/>
-          <path d="M118 176C176 206 232 248 304 318S424 430 482 410" stroke="rgba(29,29,27,.45)" stroke-width="1.4" stroke-dasharray="3 7" stroke-linecap="round"/>
-          <circle cx="268" cy="282" r="46" stroke="#c98f00" stroke-dasharray="5 6"/>
-          <circle cx="96" cy="400" r="4.5" fill="#1d1d1b"/><circle cx="466" cy="150" r="4.5" fill="#1d1d1b"/><circle cx="118" cy="176" r="3.5" fill="#1d1d1b" fill-opacity=".7"/><circle cx="482" cy="410" r="3.5" fill="#1d1d1b" fill-opacity=".7"/><circle cx="380" cy="226" r="3.5" fill="#1d1d1b" fill-opacity=".7"/><circle cx="196" cy="214" r="3" fill="#1d1d1b" fill-opacity=".5"/><circle cx="410" cy="342" r="3" fill="#1d1d1b" fill-opacity=".5"/>
-          <circle class="pulse" cx="268" cy="282" r="6" fill="#c98f00"/><circle class="pulse" cx="350" cy="236" r="5.5" fill="#a9bf00"/><circle class="pulse" cx="172" cy="352" r="5.5" fill="#a9bf00"/><circle class="pulse" cx="430" cy="300" r="4.5" fill="#a9bf00"/>
-          <text x="214" y="352" fill="#8a6200" font-family="JetBrains Mono,monospace" font-size="11" letter-spacing="1.5" font-weight="500">F-12</text>
-          <text x="404" y="130" fill="#4a4a44" font-family="JetBrains Mono,monospace" font-size="10" letter-spacing="1.5">PLANTA</text>
-          <text x="56" y="424" fill="#4a4a44" font-family="JetBrains Mono,monospace" font-size="10" letter-spacing="1.5">ANDÉN</text>
-        </svg>
-        <div class="sweep"></div>
-        <div class="fl a"><small>Disponibilidad</small><strong>97.4%</strong></div>
-        <div class="fl b"><small>Activos en línea</small><strong>128/131</strong></div>
-        <div class="fl c"><svg class="ic"><use href="#i-bell"/></svg><span>Vehículo F-12 · salida de geocerca autorizada</span></div>
-      </div>
-      <div class="fig"><span>Fig. 01 · Torre de control</span><span>Vista ilustrativa · cifras de ejemplo</span></div>
+      <p class="lead" style="max-width:760px">Conocemos tu operación de dos formas: en tiempo real, con los datos de tus flotas, plantas y equipos, y en el terreno mismo, con captura 3D, ingeniería y fabricación. Y resolvemos lo que encontremos, con un solo socio.</p>
+      <div class="ctas"><a class="btn pri" href="#lineas">Elegir mi línea <svg class="ic"><use href="#i-arrow"/></svg></a><a class="btn ghost" href="#contacto">Hablar con un especialista</a></div>
     </div>
   </div>
-</div></section>
-
-<section class="sec" id="diagnostico"><div class="wrap">
-  <div class="sh"><div><span class="idx"><b>02</b><i></i>El diagnóstico</span><h2>Gestionar <mark>“A Ciegas”</mark></h2></div>
-    <p class="sh-p">La falta de visibilidad no es exclusiva de un tipo de activo ni de una industria. Se repite cada vez que el consumo, la ubicación o el estado de un proceso no se miden en tiempo real: la gestión pasa a depender de estimaciones, recorridos manuales y reportes que llegan tarde. El resultado es siempre el mismo, sin importar el origen del dato: costos ocultos, continuidad en riesgo y decisiones tomadas con información incompleta.</p></div>
-  <div>
-    <div class="pain"><span class="n">01</span><h3>Consumo sin Control</h3><p>Energía, agua, combustible o gases de proceso que se pagan cada mes sin saber, en tiempo real, dónde y por qué se generó el gasto. Sin medición continua, la eficiencia se gestiona por intuición y no por datos, y las oportunidades de ahorro quedan invisibles.</p></div>
-    <div class="pain"><span class="n">02</span><h3>Activos y Flotas sin Trazabilidad</h3><p>Equipos, vehículos o procesos que operan sin visibilidad real de su ubicación, uso o condición. Una falla, una desviación de ruta o un activo detenido se descubren cuando ya generaron un costo o un riesgo, y no antes, cuando todavía podían prevenirse.</p></div>
-    <div class="pain"><span class="n">03</span><h3>Datos Dispersos, Decisiones Lentas</h3><p>Cada área resuelve su necesidad de datos con proveedores puntuales que no conversan entre sí. La información termina fragmentada en plataformas, planillas y reportes manuales, y la gerencia decide con retraso en lugar de hacerlo en tiempo real.</p></div>
-    <div class="pain"><span class="n">04</span><h3>Procesos en Papel</h3><p>Checklists, recepciones, auditorías y actas que se llenan a mano y se consolidan días después, sin evidencia ni trazabilidad.</p></div>
-    <div class="pain"><span class="n">05</span><h3>Atención y Coordinación Manual</h3><p>Proveedores, clientes y equipos que llaman o escriben para consultar órdenes, agendar entregas o reportar fallas, saturando al equipo.</p></div>
-  </div>
-  <div class="callout"><svg class="ic bolt"><use href="#i-bolt"/></svg><p>Estos dolores no se resuelven con un proveedor puntual para cada necesidad: requieren una estrategia capaz de <em>medir, ubicar, digitalizar y automatizar</em>, conectando cualquier fuente de datos de la operación.</p></div>
-</div></section>
-
-<section class="sec alt" id="rol"><div class="wrap">
-  <div class="sh solo"><div><span class="idx"><b>03</b><i></i>Nuestro rol</span><h2>Integrador Tecnológico de tu Operación</h2></div></div>
-  <div class="role">
-    <div><p class="tx">Life-us actúa como partner estratégico y orquestador tecnológico de la digitalización de activos industriales. No estamos atados a una sola tecnología: seleccionamos, integramos y operamos la combinación de medición, conectividad, geolocalización y gestión de datos que cada activo realmente necesita.</p>
-      <div class="qbox"><h4>Agnósticos de tecnología y de marca</h4><p>La solución se diseña según la necesidad del activo, no al revés. Medición de consumo, IoT, data loggers, GPS o gestión de datos, según lo que el diagnóstico indique.</p></div></div>
-    <div class="steps">
-      <div class="step"><span class="dot">01</span><div><h4>Activo o proceso a monitorear</h4><p>Cualquier equipo, vehículo, línea o punto de consumo, sin importar marca, modelo o antigüedad.</p></div></div>
-      <div class="step"><span class="dot">02</span><div><h4>Selección de la tecnología adecuada</h4><p>Medición de consumo, sensórica IoT, data loggers o GPS, según el activo y el KPI que se busca controlar.</p></div></div>
-      <div class="step"><span class="dot">03</span><div><h4>Conectividad y transmisión de datos</h4><p>La información viaja de forma segura y encriptada, por red celular, Wi-Fi o Bluetooth según el sitio.</p></div></div>
-      <div class="step"><span class="dot">04</span><div><h4>Un solo panel de inteligencia</h4><p>Toda la información, sin importar su origen tecnológico, converge en un dashboard centralizado.</p></div></div>
-    </div>
-  </div>
-  <div class="bq"><span class="q">“</span><p>La tecnología se elige según el problema del cliente, <mark>no según lo que tengamos en el catálogo.</mark>”</p></div>
-</div></section>
-
-<section class="sec" id="soluciones"><div class="wrap">
-  <div class="sh"><div><span class="idx"><b>04</b><i></i>Soluciones</span><h2>Motores Tecnológicos de <mark>Life-us</mark></h2></div>
-    <p class="sh-p">Tres capacidades especializadas, integradas y operadas por Life-US bajo un solo modelo de servicio. Las combinamos según el diagnóstico de cada operación y las conectamos con tu ERP y tus sistemas actuales vía API.</p></div>
-  <div class="tabs">
-    <div class="tbl" role="tablist">
-      <button class="tb on" data-t="0" role="tab"><span class="o"><svg class="ic"><use href="#i-tower"/></svg></span><span><small>MOTOR 01</small><strong>Torre de Control IoT y telemetría</strong></span><svg class="ic ar"><use href="#i-arrow"/></svg></button>
-      <button class="tb" data-t="1" role="tab"><span class="o"><svg class="ic"><use href="#i-mobile"/></svg></span><span><small>MOTOR 02</small><strong>Digitalización de procesos en terreno</strong></span><svg class="ic ar"><use href="#i-arrow"/></svg></button>
-      <button class="tb" data-t="2" role="tab"><span class="o"><svg class="ic"><use href="#i-ai"/></svg></span><span><small>MOTOR 03</small><strong>IA conversacional</strong></span><svg class="ic ar"><use href="#i-arrow"/></svg></button>
-    </div>
-    <div class="pnw">
-      <div class="pn on"><div class="pn-h"><span class="mono">Motor 01 / 03</span><span class="mono">Integración vía API</span></div>
-        <ul class="bl"><li>Integración agnóstica vía API con múltiples proveedores de GPS y sensores existentes.</li><li>Monitoreo en tiempo real de flotas terrestres y marítimas.</li><li>Cadena de frío, horómetros, odómetros y consumo de combustible.</li><li>Trazabilidad de activos.</li><li>Unifica múltiples plataformas en una sola Torre de Control.</li><li>Integración con SCADA/Modbus cuando ya existe telemetría, o sensorización desde cero.</li></ul>
-        <div class="vis"><span class="mono">Torre de control · multimarca</span>
-          <svg class="map" viewBox="0 0 300 220" fill="none" aria-hidden="true"><path d="M0 40H300M0 90H300M0 140H300M0 190H300M50 0V220M110 0V220M170 0V220M230 0V220" stroke="rgba(29,29,27,.08)"/><path d="M20 170C70 130 100 150 140 110S220 70 280 40" stroke="#a9bf00" stroke-width="2.4" stroke-dasharray="6 7" stroke-linecap="round"/><circle cx="140" cy="110" r="30" stroke="#c98f00" stroke-dasharray="4 5"/><circle cx="140" cy="110" r="6" fill="#c98f00"/><circle cx="20" cy="170" r="4.5" fill="#1d1d1b"/><circle cx="280" cy="40" r="4.5" fill="#1d1d1b"/><circle cx="220" cy="150" r="3.5" fill="#1d1d1b" fill-opacity=".6"/><circle cx="70" cy="60" r="3.5" fill="#1d1d1b" fill-opacity=".6"/><rect x="40" y="186" width="130" height="22" fill="#fff" stroke="#1d1d1b"/><text x="48" y="201" fill="#1d1d1b" font-family="JetBrains Mono,monospace" font-size="9" font-weight="500">GPS · SENSORES · SCADA</text></svg></div></div>
-      <div class="pn"><div class="pn-h"><span class="mono">Motor 02 / 03</span><span class="mono">Funciona sin conexión</span></div>
-        <ul class="bl"><li>App móvil intuitiva que funciona sin conexión.</li><li>Reemplaza el papel y las planillas en checklists de mantenimiento, auditorías de calidad en andén, picking, recepción y despacho, y actas de conformidad.</li><li>Firma digital y fotos como evidencia.</li><li>Tareas en listas, Kanban o Gantt.</li><li>Datos en tiempo real enviados directo al ERP.</li></ul>
-        <div class="vis"><div class="phone"><span class="mono" style="font-size:9.5px">Checklist de recepción</span><div class="ck d" style="margin-top:8px"><i><svg class="ic"><use href="#i-tick"/></svg></i>Estado del embalaje</div><div class="ck d"><i><svg class="ic"><use href="#i-tick"/></svg></i>Temperatura de la carga</div><div class="ck"><i></i>Fotos de evidencia</div><div class="sig">FIRMA DIGITAL</div><div class="sync"><b></b>SINCRONIZADO CON EL ERP</div></div></div></div>
-      <div class="pn"><div class="pn-h"><span class="mono">Motor 03 / 03</span><span class="mono">WhatsApp o voz · 24/7</span></div>
-        <ul class="bl"><li>Asistentes virtuales con IA por WhatsApp o voz, 24/7.</li><li>Soporte a proveedores: consultas de órdenes de compra y agendamiento de ventanas de entrega.</li><li>Autogestión para clientes: reportes de fallas de maquinaria, agendamiento de visitas técnicas y solicitud de certificados.</li></ul>
-        <div class="vis"><div class="chat"><div class="bu u">Necesito agendar una ventana de entrega.</div><div class="bu b">Claro. Estas son las ventanas disponibles:<div class="opts" style="margin-top:8px"><span>09:00</span><span>11:30</span><span>15:00</span></div></div><div class="bu u">11:30, por favor.</div><div class="bu b">Listo. Tu ventana quedó agendada.</div></div></div></div>
-    </div>
-  </div>
-  <div class="subhd"><h3>Capacidades de medición y conectividad</h3><p>Módulos que se combinan con los motores tecnológicos según cada activo, proceso o flota.</p></div>
-  <div class="caps">
-    <div class="cap"><svg class="ic"><use href="#i-gauge"/></svg><h4>Medición de Consumo</h4><p>Monitoreo de consumo energético, de agua, combustible o gases de proceso, con datos que permiten identificar ineficiencias y sustentar decisiones de eficiencia operacional.</p></div>
-    <div class="cap"><svg class="ic"><use href="#i-signal"/></svg><h4>IoT y Sensórica</h4><p>Sensores de variables críticas de proceso, como temperatura, vibración, presión y humedad, instalados sobre infraestructura existente sin alterar tu operación.</p></div>
-    <div class="cap"><svg class="ic"><use href="#i-clock"/></svg><h4>Data Loggers</h4><p>Registro histórico embebido de ciclos, eventos y condiciones de operación, incluso sin conectividad, con sincronización automática al restablecerse la señal.</p></div>
-    <div class="cap"><svg class="ic"><use href="#i-crosshair"/></svg><h4>GPS y Geolocalización</h4><p>Trazabilidad de activos móviles y flotas: ubicación en tiempo real, rutas, tiempos de tránsito y geocercas para zonas críticas.</p></div>
-    <div class="cap"><svg class="ic"><use href="#i-network"/></svg><h4>Gestión y Transmisión de Datos</h4><p>Arquitectura de conectividad y encriptación que centraliza, en una sola plataforma, la información proveniente de cualquiera de las soluciones anteriores. Integrable directamente con tu ERP o software de mantenimiento actual.</p></div>
-  </div>
-  <div class="close"><p>Además, desarrollamos soluciones a la medida de cada cliente, partiendo de sus procesos y su arquitectura, y no al revés.</p><ul class="saas"><li>Modelo SaaS</li><li>Integración vía API con tu ERP y tus sistemas actuales</li></ul></div>
-</div></section>
-
-<section class="sec alt" id="industrias"><div class="wrap">
-  <div class="sh"><div><span class="idx"><b>05</b><i></i>Industrias</span><h2>Soluciones Aplicadas a tu Industria</h2></div>
-    <p class="sh-p">Casos de uso típicos por industria. Cada proyecto se define a partir del diagnóstico de tu operación.</p></div>
-  <div class="ind">
-    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-fish"/></svg></div><h3>Acuicultura y pesca</h3><ul><li>Flota terrestre y marítima</li><li>Cadena de frío</li><li>Digitalización de recepción en planta y mantenimiento</li></ul></div>
-    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-leaf"/></svg></div><h3>Agroindustria y exportación de fruta</h3><ul><li>Transporte campo, planta y puerto</li><li>Cadena de frío</li><li>Auditorías de calidad en terreno</li></ul></div>
-    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-basket"/></svg></div><h3>Consumo masivo y alimentos</h3><ul><li>Distribución con flota tercerizada</li><li>Andenes de carga</li><li>Devoluciones</li></ul></div>
-    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-warehouse"/></svg></div><h3>Retail y centros de distribución</h3><ul><li>Visibilidad inbound de proveedores</li><li>Andenes</li><li>Agendamiento de proveedores con IA</li></ul></div>
-    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-truck"/></svg></div><h3>Transporte y operadores logísticos</h3><ul><li>Torre de Control multimarca de GPS</li><li>Evidencia de entrega</li><li>Reportabilidad al mandante</li></ul></div>
-    <div class="ind-c"><svg class="ic go"><use href="#i-arrow-ur"/></svg><div class="ring"><svg class="ic"><use href="#i-bolt"/></svg></div><h3>Energía y servicios en terreno</h3><ul><li>Telemetría de activos</li><li>Mantenimiento preventivo y correctivo</li><li>Reporte de fallas 24/7</li></ul></div>
+  <div class="paths" id="lineas">
+    <a class="path" href="/logistica/">
+      <span class="mono">Línea 01 · Logística y operación</span>
+      <h2>Visibilidad en tiempo real de tu operación</h2>
+      <div class="pv"><svg class="map" viewBox="0 0 300 220" fill="none" aria-hidden="true"><path d="M0 40H300M0 90H300M0 140H300M0 190H300M50 0V220M110 0V220M170 0V220M230 0V220" stroke="rgba(29,29,27,.08)"/><path d="M20 170C70 130 100 150 140 110S220 70 280 40" stroke="#a9bf00" stroke-width="2.4" stroke-dasharray="6 7" stroke-linecap="round"/><circle cx="140" cy="110" r="30" stroke="#c98f00" stroke-dasharray="4 5"/><circle cx="140" cy="110" r="6" fill="#c98f00"/><circle cx="20" cy="170" r="4.5" fill="#1d1d1b"/><circle cx="280" cy="40" r="4.5" fill="#1d1d1b"/><circle cx="220" cy="150" r="3.5" fill="#1d1d1b" fill-opacity=".6"/><circle cx="70" cy="60" r="3.5" fill="#1d1d1b" fill-opacity=".6"/><rect x="40" y="186" width="130" height="22" fill="#fff" stroke="#1d1d1b"/><text x="48" y="201" fill="#1d1d1b" font-family="JetBrains Mono,monospace" font-size="9" font-weight="500">GPS · SENSORES · SCADA</text></svg></div>
+      <p>Integramos tus flotas, plantas, andenes y equipos en terreno con tu ERP, sin cambiar tus sistemas.</p>
+      <ul><li>Torre de Control IoT, GPS y telemetría</li><li>Digitalización de procesos en terreno</li><li>Atención automatizada con IA</li></ul>
+      <span class="btn pri">Ver Logística y operación <svg class="ic"><use href="#i-arrow"/></svg></span>
+    </a>
+    <a class="path" href="/ingenieria/">
+      <span class="mono">Línea 02 · Ingeniería industrial</span>
+      <h2>Del terreno a la pieza instalada</h2>
+      <div class="pv"><svg viewBox="0 0 300 220" fill="none" aria-hidden="true"><path d="M0 0V220" stroke="rgba(29,29,27,.07)"/><path d="M50 0V220" stroke="rgba(29,29,27,.07)"/><path d="M100 0V220" stroke="rgba(29,29,27,.07)"/><path d="M150 0V220" stroke="rgba(29,29,27,.07)"/><path d="M200 0V220" stroke="rgba(29,29,27,.07)"/><path d="M250 0V220" stroke="rgba(29,29,27,.07)"/><path d="M300 0V220" stroke="rgba(29,29,27,.07)"/><path d="M0 0 H300" stroke="rgba(29,29,27,.07)"/><path d="M0 44 H300" stroke="rgba(29,29,27,.07)"/><path d="M0 88 H300" stroke="rgba(29,29,27,.07)"/><path d="M0 132 H300" stroke="rgba(29,29,27,.07)"/><path d="M0 176 H300" stroke="rgba(29,29,27,.07)"/><path d="M0 220 H300" stroke="rgba(29,29,27,.07)"/><defs><clipPath id="ml"><rect x="0" y="0" width="150" height="220"/></clipPath><clipPath id="mr"><rect x="150" y="0" width="150" height="220"/></clipPath></defs><g clip-path="url(#mr)"><polygon points="150.0,42.4 61.7,93.4 132.3,181.8 161.8,164.8" fill="#1d1d1b" fill-opacity=".07"/><polygon points="61.7,93.4 179.4,161.4 167.7,202.2 132.3,181.8" fill="#1d1d1b" fill-opacity=".13"/></g><g clip-path="url(#ml)"><circle cx="150" cy="43" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="155" cy="45" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="161" cy="49" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="166" cy="52" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="171" cy="55" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="177" cy="58" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="182" cy="61" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="188" cy="64" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="193" cy="67" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="198" cy="70" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="203" cy="74" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="209" cy="76" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="214" cy="79" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="220" cy="83" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="225" cy="86" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="230" cy="89" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="236" cy="93" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="241" cy="95" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="246" cy="98" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="252" cy="101" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="256" cy="104" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="263" cy="107" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="268" cy="111" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="150" cy="55" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="155" cy="58" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="160" cy="61" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="166" cy="64" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="171" cy="67" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="177" cy="70" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="183" cy="74" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="188" cy="76" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="193" cy="79" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="199" cy="82" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="204" cy="86" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="209" cy="89" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="215" cy="91" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="220" cy="95" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="225" cy="98" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="232" cy="102" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="236" cy="104" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="241" cy="107" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="247" cy="110" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="162" cy="165" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="168" cy="168" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="173" cy="172" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="179" cy="174" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="185" cy="179" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="191" cy="182" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="198" cy="186" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="155" cy="103" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="161" cy="106" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="167" cy="110" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="172" cy="114" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="178" cy="116" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="183" cy="120" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="189" cy="122" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="194" cy="126" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="199" cy="129" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="205" cy="132" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="210" cy="136" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="217" cy="138" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="222" cy="142" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="227" cy="144" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="233" cy="148" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="150" cy="42" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="150" cy="49" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="151" cy="54" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="152" cy="61" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="152" cy="67" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="153" cy="73" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="154" cy="79" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="154" cy="85" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="154" cy="91" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="155" cy="98" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="156" cy="104" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="156" cy="109" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="158" cy="116" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="158" cy="122" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="159" cy="128" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="159" cy="134" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="160" cy="141" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="160" cy="147" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="160" cy="153" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="161" cy="159" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="162" cy="165" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="268" cy="111" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="263" cy="114" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="257" cy="117" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="251" cy="120" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="246" cy="123" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="240" cy="126" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="235" cy="130" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="229" cy="132" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="224" cy="137" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="218" cy="140" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="212" cy="142" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="208" cy="145" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="202" cy="149" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="197" cy="152" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="191" cy="155" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="185" cy="158" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="180" cy="162" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="247" cy="111" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="242" cy="114" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="236" cy="116" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="232" cy="120" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="227" cy="123" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="221" cy="126" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="216" cy="129" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="211" cy="132" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="205" cy="135" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="200" cy="137" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="195" cy="140" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="190" cy="144" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="184" cy="147" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="180" cy="150" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="196" cy="185" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="191" cy="188" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="186" cy="192" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="180" cy="195" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="174" cy="199" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="167" cy="202" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="232" cy="148" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="228" cy="151" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="222" cy="154" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="216" cy="157" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="210" cy="160" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="205" cy="163" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="200" cy="167" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="194" cy="170" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="190" cy="173" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="184" cy="176" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="179" cy="179" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="174" cy="181" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="268" cy="111" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="264" cy="114" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="259" cy="119" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="255" cy="123" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="251" cy="128" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="247" cy="132" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="243" cy="137" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="238" cy="141" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="235" cy="146" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="230" cy="149" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="226" cy="155" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="222" cy="159" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="218" cy="163" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="214" cy="168" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="209" cy="171" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="205" cy="177" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="201" cy="181" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="197" cy="185" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="179" cy="161" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="174" cy="158" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="168" cy="155" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="163" cy="152" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="158" cy="149" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="152" cy="146" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="148" cy="143" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="142" cy="140" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="136" cy="136" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="132" cy="134" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="126" cy="131" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="120" cy="128" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="115" cy="125" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="110" cy="122" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="104" cy="119" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="99" cy="115" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="94" cy="112" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="88" cy="109" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="84" cy="106" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="78" cy="103" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="72" cy="100" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="67" cy="96" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="61" cy="93" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="180" cy="149" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="174" cy="146" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="169" cy="144" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="163" cy="140" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="158" cy="137" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="152" cy="134" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="147" cy="131" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="141" cy="128" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="136" cy="124" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="131" cy="121" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="125" cy="119" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="121" cy="115" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="114" cy="112" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="110" cy="109" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="104" cy="106" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="98" cy="103" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="93" cy="100" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="88" cy="97" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="82" cy="93" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="168" cy="202" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="162" cy="198" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="156" cy="196" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="151" cy="191" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="144" cy="189" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="138" cy="185" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="132" cy="182" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="173" cy="182" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="168" cy="179" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="163" cy="175" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="157" cy="172" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="152" cy="170" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="147" cy="166" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="141" cy="163" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="135" cy="160" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="130" cy="157" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="124" cy="154" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="119" cy="151" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="113" cy="148" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="108" cy="144" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="103" cy="141" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="97" cy="138" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="179" cy="161" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="178" cy="167" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="176" cy="173" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="175" cy="178" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="173" cy="185" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="171" cy="190" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="170" cy="196" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="167" cy="203" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="62" cy="94" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="67" cy="90" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="72" cy="86" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="78" cy="84" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="84" cy="80" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="89" cy="78" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="95" cy="75" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="101" cy="71" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="106" cy="68" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="111" cy="65" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="117" cy="62" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="122" cy="58" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="128" cy="55" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="134" cy="51" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="139" cy="49" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="145" cy="45" r="1.4" fill="#c98f00" fill-opacity="0.95"/><circle cx="151" cy="42" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="82" cy="94" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="88" cy="90" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="93" cy="88" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="97" cy="85" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="103" cy="81" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="109" cy="79" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="114" cy="75" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="119" cy="72" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="124" cy="70" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="130" cy="66" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="134" cy="63" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="140" cy="61" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="144" cy="58" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="150" cy="54" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="133" cy="182" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="139" cy="179" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="143" cy="175" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="150" cy="171" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="156" cy="168" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="162" cy="164" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="97" cy="137" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="102" cy="134" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="108" cy="132" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="113" cy="128" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="118" cy="125" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="124" cy="122" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="129" cy="119" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="135" cy="116" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="139" cy="113" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="146" cy="110" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="151" cy="107" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="156" cy="103" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="62" cy="93" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="66" cy="98" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="70" cy="103" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="73" cy="108" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="78" cy="113" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="81" cy="117" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="85" cy="123" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="89" cy="128" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="93" cy="132" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="97" cy="138" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="100" cy="143" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="105" cy="148" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="109" cy="152" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="112" cy="157" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="117" cy="162" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="120" cy="167" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="124" cy="172" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="128" cy="178" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/><circle cx="132" cy="182" r="1.4" fill="#1d1d1b" fill-opacity="0.80"/></g><g clip-path="url(#mr)" stroke="#1d1d1b" stroke-width="1.4" stroke-linejoin="round" fill="none"><path d="M150.0,42.4 L267.8,110.4"/><path d="M150.0,54.3 L247.2,110.4"/><path d="M161.8,164.8 L197.1,185.2"/><path d="M155.9,103.6 L232.4,147.8"/><path d="M150.0,42.4 L161.8,164.8"/><path d="M267.8,110.4 L179.4,161.4"/><path d="M247.2,110.4 L179.4,149.5"/><path d="M197.1,185.2 L167.7,202.2"/><path d="M232.4,147.8 L173.6,181.8"/><path d="M267.8,110.4 L197.1,185.2"/><path d="M179.4,161.4 L61.7,93.4"/><path d="M179.4,149.5 L82.3,93.4"/><path d="M167.7,202.2 L132.3,181.8"/><path d="M173.6,181.8 L97.0,137.6"/><path d="M179.4,161.4 L167.7,202.2"/><path d="M61.7,93.4 L150.0,42.4"/><path d="M82.3,93.4 L150.0,54.3"/><path d="M132.3,181.8 L161.8,164.8"/><path d="M97.0,137.6 L155.9,103.6"/><path d="M61.7,93.4 L132.3,181.8"/></g><path d="M150 10V198" stroke="#a9bf00" stroke-width="1.2" stroke-dasharray="5 5"/><text x="80" y="212" fill="#1d1d1b" font-family="JetBrains Mono,monospace" font-size="8.5" font-weight="500">ESCANEO</text><text x="220" y="212" fill="#1d1d1b" font-family="JetBrains Mono,monospace" font-size="8.5" font-weight="500" text-anchor="end">MODELO</text></svg></div>
+      <p>Capturamos tu planta, faena u obra en 3D, la convertimos en planos y datos, y fabricamos la solución con control dimensional.</p>
+      <ul><li>Escaneo láser 3D, drones y topografía</li><li>Control dimensional, desgaste y monitoreo</li><li>Ingeniería, fabricación y analítica de datos</li></ul>
+      <span class="btn pri">Ver Ingeniería industrial <svg class="ic"><use href="#i-arrow"/></svg></span>
+    </a>
   </div>
 </div></section>
 
-<section class="sec dk" id="plataforma"><div class="wrap">
-  <div class="sh solo"><div><span class="idx"><b>06</b><i></i>La plataforma</span><h2>Visibilidad Operativa las <mark style="background:linear-gradient(180deg,transparent 58%,rgba(212,239,12,.9) 58%,rgba(212,239,12,.9) 94%,transparent 94%);color:#fff">24 Horas</mark></h2></div></div>
-  <div class="plat">
-    <div>
-      <div class="feat"><div class="bd"><svg class="ic"><use href="#i-eye"/></svg></div><div><h4>Visualización en Tiempo Real</h4><p>Estado exacto de cada activo, ubicación o punto de consumo, actualizado de forma continua, disponible las 24 horas del día desde cualquier dispositivo.</p></div></div>
-      <div class="feat"><div class="bd"><svg class="ic"><use href="#i-trend"/></svg></div><div><h4>Analítica de Patrones y Consumo</h4><p>Analiza el comportamiento histórico de cada fuente de datos para identificar tendencias de degradación o ineficiencia antes de que impacten la operación.</p></div></div>
-      <div class="feat"><div class="bd"><svg class="ic"><use href="#i-bell"/></svg></div><div><h4>Alertas Tempranas Automáticas</h4><p>Ante una desviación del rango operativo, una geocerca o un umbral de consumo, el sistema notifica de inmediato al encargado definido por el cliente.</p></div></div>
-    </div>
-    <div>
-      <div class="db">
-        <div class="db-top"><i></i><i></i><i></i><span class="db-title">LIFE-US · PANEL OPERATIVO</span><span class="db-live"><b></b>EN LÍNEA</span></div>
-        <div class="kp"><div class="p"><small>Disponibilidad</small><strong>97.4%</strong></div><div><small>Activos en línea</small><strong>128/131</strong></div><div><small>Alertas activas</small><strong>2</strong></div></div>
-        <div class="pnl"><h5>Tendencia de consumo energético · últimas 24h</h5>
-          <svg class="ch" viewBox="0 0 520 130" preserveAspectRatio="none" fill="none"><defs><linearGradient id="gf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d4ef0c" stop-opacity=".3"/><stop offset="1" stop-color="#d4ef0c" stop-opacity="0"/></linearGradient></defs><path d="M0 30H520M0 62H520M0 94H520" stroke="rgba(255,255,255,.07)"/><path d="M0 78L52 66L104 84L156 50L208 70L260 38L312 62L364 28L416 48L468 34L520 44V130H0Z" fill="url(#gf)"/><polyline points="0,78 52,66 104,84 156,50 208,70 260,38 312,62 364,28 416,48 468,34 520,44" stroke="#d4ef0c" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/><path d="M0 54H520" stroke="#f2b400" stroke-dasharray="6 6" stroke-opacity=".7" vector-effect="non-scaling-stroke"/><circle cx="364" cy="28" r="5" fill="#d4ef0c"/></svg></div>
-        <div class="lw">
-          <div class="pnl"><h5>Alertas</h5><div class="al"><i></i><div>Vehículo F-12 · salida de geocerca autorizada<small>HACE 2 MIN</small></div></div><div class="al"><i></i><div>Umbral de consumo superado en una línea de proceso<small>HACE 14 MIN</small></div></div><div class="al"><i class="g"></i><div>Sincronización de data logger restablecida<small>HACE 1 H</small></div></div></div>
-          <div class="pnl"><h5>Activos</h5><table class="tb2"><tbody><tr><td>Vehículo F-12</td><td><span class="st w">ALERTA</span></td></tr><tr><td>Cámara de frío 02</td><td><span class="st">EN LÍNEA</span></td></tr><tr><td>Línea de envasado</td><td><span class="st w">ALERTA</span></td></tr><tr><td>Grúa portuaria 01</td><td><span class="st">EN LÍNEA</span></td></tr></tbody></table></div>
-        </div>
-      </div>
-      <div class="fig"><span>Fig. 02 · Panel operativo</span><span>Vista ilustrativa · cifras de ejemplo</span></div>
-    </div>
+<section class="sec alt" id="metodo"><div class="wrap">
+  <div class="sh"><div><span class="idx"><b>02</b><i></i>El hilo común</span><h2>Un Mismo Método, <mark>Dos Formas</mark> de Conocer tu Operación</h2></div>
+    <p class="sh-p">Sea un camión en ruta, un molino detenido o una obra en construcción, el problema de fondo es el mismo: decidir sin conocer la condición real. Por eso trabajamos con la misma lógica en ambas líneas.</p></div>
+  <div class="thread">
+    <div><svg class="ic"><use href="#i-gauge"/></svg><span class="mono">Paso 01</span><h4>Medimos</h4><p>Capturamos la condición real: en tiempo real, con sensores y GPS, o en 3D, con escáner láser y drones, con precisión milimétrica.</p></div>
+    <div><svg class="ic"><use href="#i-eye"/></svg><span class="mono">Paso 02</span><h4>Entendemos</h4><p>Convertimos el dato en diagnóstico: alertas y tendencias de la operación, o modelos, planos y mapas de desviación y desgaste.</p></div>
+    <div><svg class="ic"><use href="#i-wrench"/></svg><span class="mono">Paso 03</span><h4>Resolvemos</h4><p>Llevamos la decisión a terreno: procesos digitales y automatización, o ingeniería y fabricación de la solución.</p></div>
   </div>
-</div></section>
-
-<section class="sec" id="acompanamiento"><div class="wrap">
-  <div class="sh"><div><span class="idx"><b>07</b><i></i>El acompañamiento</span><h2>Más Allá de Vender <mark>Tecnología</mark></h2></div>
-    <p class="sh-p">Life-us no opera como un proveedor de dispositivos puntuales. Operamos como un aliado de negocio que acompaña la transformación digital del cliente desde el diagnóstico inicial hasta la validación del retorno de inversión.</p></div>
-  <div class="acc">
-    <div class="acc-c"><svg class="ic"><use href="#i-clipboard"/></svg><span class="mono">Paso 01</span><h4>Levantamiento Técnico Integral</h4><p>Evaluamos en terreno los activos, procesos o flotas críticas, su estado, su criticidad operacional y las condiciones de conectividad del sitio, definiendo qué monitorear primero.</p></div>
-    <div class="acc-c"><svg class="ic"><use href="#i-layers"/></svg><span class="mono">Paso 02</span><h4>Selección y Arquitectura a la Medida</h4><p>Diseñamos qué combinación del portafolio, ya sea medición, IoT, data loggers, GPS o transmisión de datos, corresponde a cada activo, integrándola con los sistemas ya existentes: ERP, mantenimiento, SCADA.</p></div>
-    <div class="acc-c"><svg class="ic"><use href="#i-crosshair"/></svg><span class="mono">Paso 03</span><h4>Definición Conjunta de KPIs</h4><p>Junto a Operaciones y Mantenimiento definimos los indicadores que importan al negocio: disponibilidad, consumo, tiempo entre fallas, cumplimiento de rutas. El dashboard se configura en torno a ellos.</p></div>
-    <div class="acc-c"><svg class="ic"><use href="#i-people"/></svg><span class="mono">Paso 04</span><h4>Acompañamiento y ROI</h4><p>Seguimiento periódico del desempeño de cada solución, ajuste de umbrales y revisión del impacto medible: menos detenciones, menor consumo, mayor control de flota y de activos.</p></div>
-  </div>
-</div></section>
-
-<section class="sec alt" id="implementacion"><div class="wrap">
-  <div class="sh"><div><span class="idx"><b>08</b><i></i>Implementación</span><h2>Piloto Controlado, <mark>Riesgo Acotado</mark></h2></div>
-    <p class="sh-p">Life-us no propone una implementación masiva desde el primer día. Trabajamos bajo una metodología de piloto controlado, diseñada para demostrar valor de forma medible antes de cualquier decisión de escalamiento.</p></div>
-  <div class="tl">
-    <div class="tl-s"><span class="mono">Seleccionar</span><h4>Activo o Proceso Crítico</h4><p>Se identifica, junto al cliente, el activo, vehículo o proceso de mayor impacto operacional como caso de prueba.</p></div>
-    <div class="tl-s"><span class="mono">Medir</span><h4>KPIs Base (Baseline)</h4><p>Se documenta el estado actual: fallas históricas, consumo, tiempos de detención y prácticas vigentes.</p></div>
-    <div class="tl-s"><span class="mono">Instalar</span><h4>Sin Interferencia</h4><p>La tecnología elegida se instala en ventanas ya programadas, sin detener la operación.</p></div>
-    <div class="tl-s key"><span class="wk">Piloto · 4 a 8 semanas</span><span class="mono">Monitorear</span><h4>Validación en Terreno</h4><p>Entre 4 y 8 semanas de monitoreo conjunto, validando alertas y ajustando umbrales reales.</p></div>
-    <div class="tl-s"><span class="mono">Evaluar</span><h4>Resultados y Escalamiento</h4><p>Informe comparativo baseline vs. resultados, como base objetiva para escalar la solución.</p></div>
-  </div>
-</div></section>
-
-<!-- =====================================================================
-     CASOS (SECCIÓN OCULTA)
-     Hoy no hay casos reales autorizados, por eso esta sección y sus enlaces
-     están con el atributo "hidden". Para activarla:
-       1. Quitar "hidden" de esta <section> y de los 3 enlaces href="#casos"
-          (menú de escritorio, panel móvil y footer).
-       2. Descomentar la plantilla de tarjeta de abajo y repetirla para 3 casos
-          reales y autorizados (pueden ser anónimos, por ejemplo
-          "Salmonera, Región de Los Lagos").
-       3. Opcional: descomentar la franja de logos, solo con autorización de
-          cada cliente.
-     Los textos de encabezado de esta sección son provisorios: revisarlos al activarla.
-     ===================================================================== -->
-<section class="sec alt" id="casos" hidden><div class="wrap">
-  <div class="sh"><div><span class="idx"><b>—</b><i></i>Casos</span><h2>Resultados Medibles en Terreno</h2></div>
-    <p class="sh-p">Industria, desafío, solución y resultado de proyectos de Life-US.</p></div>
-  <div class="case-grid">
-    <!-- PLANTILLA DE TARJETA (descomentar y repetir para 3 casos):
-    <article class="case-card">
-      <dl>
-        <div class="case-row"><dt>Industria</dt><dd></dd></div>
-        <div class="case-row"><dt>Desafío</dt><dd></dd></div>
-        <div class="case-row"><dt>Solución</dt><dd></dd></div>
-        <div class="case-row"><dt>Resultado</dt><dd></dd></div>
-      </dl>
-    </article>
-    -->
-  </div>
-  <!-- FRANJA DE LOGOS DE CLIENTES (descomentar solo con autorización de cada cliente):
-  <div class="logo-strip">
-    <img src="" alt="">
-  </div>
-  -->
+  <div class="close"><p>Todo bajo un solo modelo de servicio, con Life-us como único interlocutor e integrado con los sistemas que ya usas.</p><ul class="saas"><li>Un solo socio para toda la cadena</li><li>Integración vía API con tu ERP y tus sistemas actuales</li></ul></div>
 </div></section>
 
 <section class="sec dk" id="contacto"><div class="wrap ct">
   <div>
-    <span class="idx"><b>09</b><i></i>Conclusión y contacto</span>
-    <h2>Transformamos datos de consumo, ubicación o proceso en <em>continuidad operacional.</em></h2>
-    <p class="tx">La visibilidad en tiempo real sobre tus activos, flotas y procesos críticos no es un proyecto de tecnología aislado: es la base para reducir detenciones no planificadas, controlar consumo y sostener la continuidad de tus operaciones con información, no con intuición.</p>
-    <p class="q">“Propongamos en conjunto un piloto controlado sobre un activo, flota o proceso crítico de tu operación, con resultados medibles en semanas, no en meses.”</p>
+    <span class="idx"><b>03</b><i></i>Contacto</span>
+    <h2>Cuéntanos qué activo quieres <em>conocer mejor.</em></h2>
+    <p class="tx">Si no tienes claro por dónde partir, escríbenos: un especialista de LIFE-US revisa tu caso y te orienta hacia la línea que corresponde, o hacia ambas.</p>
     <div class="cd">
       <div><svg class="ic"><use href="#i-mail"/></svg>nicolas@lifeus.cl</div>
       <div><svg class="ic"><use href="#i-mail"/></svg>joaquin@lifeus.cl</div>
@@ -585,6 +138,7 @@ mark{background:linear-gradient(180deg,transparent 58%,var(--lime) 58%,var(--lim
     <input type="hidden" name="access_key" value="e84f2b87-f813-4b05-aea6-3bc1493b3266">
     <input type="hidden" name="subject" value="Nueva consulta desde lifeus.cl">
     <input type="hidden" name="from_name" value="Sitio LIFE-US">
+    <input type="hidden" name="linea" value="Portada">
     <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
     <h3>Conversemos sobre tu operación</h3><p class="sub">Cuéntanos tu industria y tus activos críticos. Un especialista de LIFE-US se pondrá en contacto para agendar una reunión técnica.</p>
     <div class="row">
@@ -594,14 +148,15 @@ mark{background:linear-gradient(180deg,transparent 58%,var(--lime) 58%,var(--lim
     <div class="fld"><label for="f-correo">Correo <i>*</i></label><input id="f-correo" type="email" name="correo" placeholder="correo@empresa.com" required><p class="err">Ingresa un correo válido.</p></div>
     <div class="fld"><label for="activoSelect">Tipo de activo / necesidad</label>
       <select name="activo" id="activoSelect">
-        <option>Energía, agua o combustible</option>
-        <option>IoT / sensores</option>
         <option>Flota GPS / Torre de Control</option>
-        <option>Data loggers</option>
-        <option>Integración de datos existentes</option>
+        <option>Energía, agua o combustible</option>
+        <option>IoT / sensores y data loggers</option>
         <option>Digitalización de procesos en terreno (checklists, recepción, despacho, auditorías)</option>
         <option>Asistente con IA por WhatsApp o voz</option>
-        <option value="Otro">Otro</option>
+        <option>Escaneo láser 3D, topografía o drones</option>
+        <option>Análisis de desgaste y vida útil</option>
+        <option>Ingeniería, fabricación o analítica de datos</option>
+        <option value="Otro">Otro / no sé por dónde partir</option>
       </select></div>
     <div class="fld fld-otro" id="activoOtroWrap"><label for="activoOtroInput">Describe tu necesidad <i>*</i></label><input id="activoOtroInput" type="text" name="activo_otro" placeholder="Ej: grúa portuaria, silo de almacenamiento, agendamiento de proveedores..."><p class="err">Cuéntanos qué necesitas resolver.</p></div>
     <div class="fld"><label for="f-mensaje">Cuéntanos sobre tu operación</label><textarea id="f-mensaje" name="mensaje" placeholder="Ej: flota de 40 vehículos sin trazabilidad de rutas..."></textarea></div>
@@ -617,71 +172,14 @@ mark{background:linear-gradient(180deg,transparent 58%,var(--lime) 58%,var(--lim
 </div></section>
 
 <footer class="ft"><div class="wrap">
-  <div class="ft-in"><a class="logo" href="#top" aria-label="LIFE-US"></a>
-    <nav><a href="#diagnostico">Diagnóstico</a><a href="#rol">Nuestro rol</a><a href="#soluciones">Soluciones</a><a href="#industrias">Industrias</a><a href="#plataforma">Plataforma</a><a href="#implementacion">Implementación</a><a href="#casos" hidden>Casos</a><a href="#contacto">Contacto</a><a href="https://www.linkedin.com/company/life-us/" target="_blank" rel="noopener" aria-label="LinkedIn de LIFE-US">LinkedIn</a></nav></div>
+  <div class="ft-in"><a class="logo" href="/" aria-label="LIFE-US, inicio"></a>
+    <nav><a href="/logistica/">Logística y operación</a><a href="/ingenieria/">Ingeniería industrial</a><a href="#metodo">Cómo trabajamos</a><a href="#contacto">Contacto</a><a href="https://www.linkedin.com/company/life-us/" target="_blank" rel="noopener" aria-label="LinkedIn de LIFE-US">LinkedIn</a></nav></div>
   <div class="ft-b"><span>© 2026 LIFE-US. Todos los derechos reservados.</span><span>Soluciones tecnológicas para la industria.</span></div>
 </div></footer>
 
 <a class="wa-float" id="waFloat" href="https://wa.me/56963181211" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
   <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa-solid"/></svg>
 </a>
-<script>
-(function(){
-  document.querySelectorAll('.tb').forEach(function(b){b.addEventListener('click',function(){var i=+b.dataset.t;document.querySelectorAll('.tb').forEach(function(x,j){x.classList.toggle('on',j===i)});document.querySelectorAll('.pn').forEach(function(x,j){x.classList.toggle('on',j===i)})})});
-  var bg=document.getElementById('burger'),mp=document.getElementById('mp');
-  bg.addEventListener('click',function(){var o=mp.classList.toggle('open');bg.classList.toggle('open',o);bg.setAttribute('aria-expanded',o)});
-  mp.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){mp.classList.remove('open');bg.classList.remove('open');bg.setAttribute('aria-expanded','false')})});
-  var links=[].slice.call(document.querySelectorAll('#nav a')),map=links.map(function(a){return {el:document.querySelector(a.getAttribute('href')),href:a.getAttribute('href')}});
-  map.push({el:document.getElementById('acompanamiento'),href:'#implementacion'});
-
-  function setActive(){var cur=null,top=-1e9;map.forEach(function(m){if(!m.el||m.el.hidden)return;var t=m.el.getBoundingClientRect().top;if(t<=140&&t>top){top=t;cur=m.href}});links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')===cur)})}
-  window.addEventListener('scroll',setActive,{passive:true});setActive();
-
-  /* ---------- Formulario: validación en el cliente + envío real por Web3Forms ---------- */
-  var form=document.getElementById('contactForm'),okPanel=document.getElementById('formSuccess'),resetBtn=document.getElementById('formReset'),errNote=document.getElementById('formError');
-  var sel=document.getElementById('activoSelect'),otroWrap=document.getElementById('activoOtroWrap'),otroIn=document.getElementById('activoOtroInput');
-  function reqFields(){return [].slice.call(form.querySelectorAll('[required]'))}
-  function check(inp){var w=inp.closest('.fld'),v=inp.checkValidity();if(w)w.classList.toggle('has-error',!v);return v}
-  function toggleOtro(){
-    var o=sel.value==='Otro';otroWrap.classList.toggle('open',o);
-    if(o){otroIn.setAttribute('required','required');otroIn.focus()}
-    else{otroIn.removeAttribute('required');otroIn.value='';otroWrap.classList.remove('has-error')}
-  }
-  if(form){
-    form.addEventListener('input',function(e){if(e.target.matches&&e.target.matches('[required]'))check(e.target)});
-    form.addEventListener('blur',function(e){if(e.target.matches&&e.target.matches('[required]'))check(e.target)},true);
-    sel.addEventListener('change',toggleOtro);
-    form.addEventListener('submit',function(e){
-      e.preventDefault();
-      var ok=true;reqFields().forEach(function(i){if(!check(i))ok=false});
-      if(!ok){var f=form.querySelector('.fld.has-error input,.fld.has-error textarea');if(f)f.focus();return}
-      errNote.style.display='none';
-      var btn=form.querySelector('button[type="submit"]'),label=btn.innerHTML;
-      btn.disabled=true;btn.textContent='Enviando...';
-      fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(form)))})
-        .then(function(r){return r.json()})
-        .then(function(d){if(d.success){form.classList.add('is-success')}else{errNote.style.display='block'}})
-        .catch(function(){errNote.style.display='block'})
-        .finally(function(){btn.disabled=false;btn.innerHTML=label});
-    });
-    resetBtn.addEventListener('click',function(){
-      form.reset();form.classList.remove('is-success');
-      form.querySelectorAll('.fld.has-error').forEach(function(w){w.classList.remove('has-error')});
-      toggleOtro();
-    });
-  }
-
-  /* ---------- Botón flotante de WhatsApp: se aparta si taparía el botón de enviar ---------- */
-  var wa=document.getElementById('waFloat'),waBtn=form?form.querySelector('button[type="submit"]'):null,waTick=false;
-  function updateWa(){
-    if(!wa||!waBtn)return;
-    var a=wa.getBoundingClientRect(),b=waBtn.getBoundingClientRect(),p=14;
-    var hit=b.height>0&&!(a.right+p<b.left||a.left-p>b.right||a.bottom+p<b.top||a.top-p>b.bottom);
-    wa.classList.toggle('is-away',hit);
-  }
-  function schedWa(){if(!waTick){waTick=true;requestAnimationFrame(function(){updateWa();waTick=false})}}
-  window.addEventListener('scroll',schedWa,{passive:true});window.addEventListener('resize',schedWa);updateWa();
-})();
-</script>
+<script src="/assets/site.js?v=3"></script>
 </body>
 </html>
